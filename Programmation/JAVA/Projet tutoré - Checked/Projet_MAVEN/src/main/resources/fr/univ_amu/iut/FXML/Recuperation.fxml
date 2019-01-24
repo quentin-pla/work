@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.SVGPath?>
+<fx:root fx:id="vBox" alignment="TOP_CENTER" prefHeight="667" minHeight="667" maxHeight="667" prefWidth="375"
+         minWidth="375" maxWidth="375" styleClass="root"
+         type="javafx.scene.layout.VBox" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox fx:id="top" alignment="CENTER_LEFT" spacing="5" onMouseClicked="#Accueil">
+            <children>
+                <SVGPath id="chevron" content="M 13 1 A 1 1 0 1 1 14 3 L 7 10 L 14 17 A 1 1 0 1 1 13 19 L 4 10 Z"
+                         scaleX="0.8" scaleY="0.80"/>
+                <Label id="retour" text="Retour">
+                </Label>
+            </children>
+            <VBox.margin>
+                <Insets>
+                    <top>10</top>
+                    <bottom>30</bottom>
+                    <left>10</left>
+                    <right>290</right>
+                </Insets>
+            </VBox.margin>
+        </HBox>
+
+        <Label id="title" text="Récupération">
+            <VBox.margin>
+                <Insets>
+                    <top>150</top>
+                    <bottom>5</bottom>
+                    <right>28</right>
+                </Insets>
+            </VBox.margin>
+        </Label>
+
+        <Label id="instruction"
+               text="Un e-mail vous sera envoyé contenant un lien pour changer votre mot de passe actuel"
+               textAlignment="JUSTIFY">
+            <VBox.margin>
+                <Insets>
+                    <bottom>20</bottom>
+                    <left>60</left>
+                    <right>60</right>
+                </Insets>
+            </VBox.margin>
+        </Label>
+
+        <TextField fx:id="adressemail" maxWidth="255" promptText="Adresse mail">
+            <VBox.margin>
+                <Insets>
+                    <bottom>8</bottom>
+                </Insets>
+            </VBox.margin>
+        </TextField>
+
+        <Button fx:id="valider" text="Valider" prefHeight="30" prefWidth="255">
+            <VBox.margin>
+                <Insets>
+                </Insets>
+            </VBox.margin>
+        </Button>
+
+    </children>
+</fx:root>

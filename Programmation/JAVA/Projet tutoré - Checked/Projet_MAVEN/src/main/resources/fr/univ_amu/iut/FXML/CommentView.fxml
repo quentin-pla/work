@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.TextFlow?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<fx:root fx:id="commentViewRoot" prefHeight="667" minHeight="667" maxHeight="667" prefWidth="375" minWidth="375"
+         maxWidth="375" styleClass="root" type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8.0.121"
+         xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <HBox fx:id="top" alignment="CENTER_LEFT" spacing="5" onMouseClicked="#Resultats">
+            <children>
+                <SVGPath id="chevron" content="M 13 1 A 1 1 0 1 1 14 3 L 7 10 L 14 17 A 1 1 0 1 1 13 19 L 4 10 Z"
+                         scaleX="0.8" scaleY="0.8"/>
+                <Label id="retour" text="Retour">
+                </Label>
+            </children>
+            <padding>
+                <Insets>
+                    <top>8</top>
+                    <left>5</left>
+                </Insets>
+            </padding>
+        </HBox>
+    </top>
+    <center>
+        <ScrollPane style="-fx-background-color: white" prefWidth="375" minWidth="375" maxWidth="375" hbarPolicy="NEVER"
+                    vbarPolicy="NEVER">
+            <VBox fx:id="commentContainer" style="-fx-background-color: white" alignment="TOP_CENTER" minWidth="375"
+                  maxWidth="375" prefWidth="375">
+                <VBox alignment="TOP_CENTER"
+                      style="-fx-background-color: white;-fx-border-radius: 15;-fx-border-width: 3;-fx-border-color: linear-gradient(to right bottom,limegreen,darkgreen)"
+                      prefWidth="340" minWidth="340" maxWidth="340">
+                    <HBox alignment="CENTER_LEFT" spacing="5" prefHeight="30" minHeight="30" maxHeight="30"
+                          prefWidth="320" minWidth="320" maxWidth="320">
+                        <Label fx:id="commentProduct" text="MSI GTX-1080" prefWidth="195" minWidth="195"
+                               maxWidth="195"/>
+                        <HBox spacing="2" minHeight="22" maxHeight="22" prefHeight="22">
+                            <children>
+                                <Region fx:id="star1Region" minHeight="22" maxHeight="22" prefHeight="22" minWidth="22"
+                                        maxWidth="22" prefWidth="22" style="-fx-background-color: #e2c422;">
+                                    <shape>
+                                        <SVGPath fx:id="star1"/>
+                                    </shape>
+                                </Region>
+                                <Region fx:id="star2Region" minHeight="22" maxHeight="22" prefHeight="22" minWidth="22"
+                                        maxWidth="22" prefWidth="22" style="-fx-background-color: #e2c422;">
+                                    <shape>
+                                        <SVGPath fx:id="star2"/>
+                                    </shape>
+                                </Region>
+                                <Region fx:id="star3Region" minHeight="22" maxHeight="22" prefHeight="22" minWidth="22"
+                                        maxWidth="22" prefWidth="22" style="-fx-background-color: #e2c422;">
+                                    <shape>
+                                        <SVGPath fx:id="star3"/>
+                                    </shape>
+                                </Region>
+                                <Region fx:id="star4Region" minHeight="22" maxHeight="22" prefHeight="22" minWidth="22"
+                                        maxWidth="22" prefWidth="22" style="-fx-background-color: #e2c422;">
+                                    <shape>
+                                        <SVGPath fx:id="star4"/>
+                                    </shape>
+                                </Region>
+                                <Region fx:id="star5Region" minHeight="22" maxHeight="22" prefHeight="22" minWidth="22"
+                                        maxWidth="22" prefWidth="22" style="-fx-background-color: #e2c422;">
+                                    <shape>
+                                        <SVGPath fx:id="star5"/>
+                                    </shape>
+                                </Region>
+                            </children>
+                        </HBox>
+                        <VBox.margin>
+                            <Insets>
+                                <top>2</top>
+                            </Insets>
+                        </VBox.margin>
+                    </HBox>
+                    <Label alignment="CENTER" fx:id="commentTitle" prefWidth="320"
+                           minWidth="320" maxWidth="320"/>
+                    <TextFlow textAlignment="JUSTIFY" prefWidth="320" minWidth="320" maxWidth="320">
+                        <Text fx:id="commentContent"/>
+                        <VBox.margin>
+                            <Insets>
+                                <top>5</top>
+                            </Insets>
+                        </VBox.margin>
+                    </TextFlow>
+                    <VBox fx:id="picturesContainer" prefWidth="320" minWidth="320" maxWidth="320" spacing="10">
+                        <VBox.margin>
+                            <Insets>
+                                <top>10</top>
+                            </Insets>
+                        </VBox.margin>
+                    </VBox>
+                    <HBox alignment="CENTER_RIGHT" minHeight="40" maxHeight="40" prefHeight="40" minWidth="320"
+                          maxWidth="320" prefWidth="320">
+                        <HBox spacing="2" alignment="CENTER_LEFT" minWidth="52" maxWidth="52" prefWidth="52"
+                              minHeight="22" maxHeight="22" prefHeight="22">
+                            <Region minHeight="16" maxHeight="16" prefHeight="16" minWidth="16" maxWidth="16"
+                                    prefWidth="16" style="-fx-background-color: green;">
+                                <shape>
+                                    <SVGPath
+                                            content="M198 448h172c15.7 0 28.6-9.6 34.2-23.4l57.1-135.4c1.7-4.4 2.6-9 2.6-14v-38.6c0-21.1-17-44.6-37.8-44.6H306.9l18-81.5.6-6c0-7.9-3.2-15.1-8.3-20.3L297 64 171 191.3c-6.8 6.9-11 16.5-11 27.1v192c0 21.1 17.2 37.6 38 37.6zM48 224h64v224H48z"/>
+                                </shape>
+                            </Region>
+                            <Label fx:id="likeStats" style="-fx-font-size: 130%;-fx-text-fill: green"/>
+                            <HBox.margin>
+                                <Insets>
+                                    <right>12</right>
+                                </Insets>
+                            </HBox.margin>
+                        </HBox>
+                        <HBox spacing="2" alignment="CENTER_LEFT" minWidth="52" maxWidth="52" prefWidth="52"
+                              minHeight="22" maxHeight="22" prefHeight="22">
+                            <Region minHeight="16" maxHeight="16" prefHeight="16" minWidth="16" maxWidth="16"
+                                    prefWidth="16" style="-fx-background-color: red;">
+                                <shape>
+                                    <SVGPath
+                                            content="M314 64H142c-15.7 0-28.6 9.6-34.2 23.4L50.6 222.8c-1.7 4.4-2.6 9-2.6 14v38.6c0 21.1 17 44.6 37.8 44.6h119.3l-18 81.5-.6 6c0 7.9 3.2 15.1 8.3 20.3l20 20.1L341 320.7c6.8-6.9 11-16.5 11-27.1v-192c0-21.1-17.2-37.6-38-37.6zM400 64h64v224h-64z"/>
+                                </shape>
+                            </Region>
+                            <Label fx:id="dislikeStats" style="-fx-font-size: 130%;-fx-text-fill: red"/>
+                            <HBox.margin>
+                                <Insets>
+                                    <right>12</right>
+                                </Insets>
+                            </HBox.margin>
+                        </HBox>
+                        <HBox spacing="2" alignment="CENTER_LEFT" minWidth="52" maxWidth="52" prefWidth="52"
+                              minHeight="22" maxHeight="22" prefHeight="22">
+                            <Region minHeight="16" maxHeight="16" prefHeight="16" minWidth="16" maxWidth="16"
+                                    prefWidth="16" style="-fx-background-color: purple;">
+                                <shape>
+                                    <SVGPath
+                                            content="M352 56h-1c-39.7 0-74.8 21-95 52-20.2-31-55.3-52-95-52h-1c-61.9.6-112 50.9-112 113 0 37 16.2 89.5 47.8 132.7C156 384 256 456 256 456s100-72 160.2-154.3C447.8 258.5 464 206 464 169c0-62.1-50.1-112.4-112-113"/>
+                                </shape>
+                            </Region>
+                            <Label fx:id="favoriteStats" style="-fx-font-size: 130%;-fx-text-fill: purple"/>
+                        </HBox>
+                    </HBox>
+                    <HBox onMouseClicked="#goToUserProfil" style="-fx-border-color: #595959;-fx-border-radius: 5;-fx-cursor: hand" prefWidth="320" minWidth="320"
+                          maxWidth="320" prefHeight="75" minHeight="75" maxHeight="75" alignment="CENTER_LEFT">
+                        <AnchorPane minHeight="70" maxHeight="70" prefHeight="70" minWidth="70" maxWidth="70"
+                                    prefWidth="70">
+                            <Circle fx:id="badgeCircle" layoutX="35" layoutY="35" radius="32" style="-fx-fill: green"/>
+                            <ImageView layoutX="5" layoutY="5" fx:id="userPicture" fitHeight="60" preserveRatio="true">
+                                <clip>
+                                    <Circle radius="30" layoutX="30" layoutY="30"/>
+                                </clip>
+                            </ImageView>
+                            <HBox.margin>
+                                <Insets>
+                                    <left>15</left>
+                                </Insets>
+                            </HBox.margin>
+                        </AnchorPane>
+                        <VBox alignment="CENTER_LEFT">
+                            <Label alignment="CENTER_LEFT" fx:id="pseudoComment" text="girltrip" prefWidth="195"
+                                   minWidth="195" maxWidth="195"/>
+                            <HBox alignment="CENTER_LEFT" spacing="5">
+                                <Region maxHeight="15" maxWidth="15" minHeight="15" minWidth="15" prefHeight="15"
+                                        prefWidth="15" style="-fx-background-color: black">
+                                    <shape>
+                                        <SVGPath fx:id="lvlIcon"
+                                                 content="M256 32C132.288 32 32 132.288 32 256s100.288 224 224 224 224-100.288 224-224S379.712 32 256 32zm135.765 359.765C355.5 428.028 307.285 448 256 448s-99.5-19.972-135.765-56.235C83.972 355.5 64 307.285 64 256s19.972-99.5 56.235-135.765C156.5 83.972 204.715 64 256 64s99.5 19.972 135.765 56.235C428.028 156.5 448 204.715 448 256s-19.972 99.5-56.235 135.765z M200.043 106.067c-40.631 15.171-73.434 46.382-90.717 85.933H256l-55.957-85.933zM412.797 288A160.723 160.723 0 0 0 416 256c0-36.624-12.314-70.367-33.016-97.334L311 288h101.797zM359.973 134.395C332.007 110.461 295.694 96 256 96c-7.966 0-15.794.591-23.448 1.715L310.852 224l49.121-89.605zM99.204 224A160.65 160.65 0 0 0 96 256c0 36.639 12.324 70.394 33.041 97.366L201 224H99.204zM311.959 405.932c40.631-15.171 73.433-46.382 90.715-85.932H256l55.959 85.932zM152.046 377.621C180.009 401.545 216.314 416 256 416c7.969 0 15.799-.592 23.456-1.716L201.164 288l-49.118 89.621z"/>
+                                    </shape>
+                                </Region>
+                                <Label alignment="CENTER_LEFT" fx:id="lvlComment" text="lvl. 58" prefWidth="100"
+                                       minWidth="100" maxWidth="100"/>
+                            </HBox>
+                            <HBox.margin>
+                                <Insets>
+                                    <left>5</left>
+                                </Insets>
+                            </HBox.margin>
+                        </VBox>
+                        <Region maxHeight="20" maxWidth="14" minHeight="20" minWidth="14" prefHeight="20" prefWidth="14"
+                                style="-fx-background-color: #595959">
+                            <shape>
+                                <SVGPath content="M 350 110 L 450 240 L 350 370 L 340 360 L 430 240 L 340 120 Z"/>
+                            </shape>
+                        </Region>
+                    </HBox>
+                    <HBox fx:id="buttonsContainer" spacing="20" alignment="CENTER" maxWidth="320" minWidth="320" prefWidth="320" prefHeight="80"
+                          minHeight="80" maxHeight="80">
+                        <Region fx:id="buttonLike" maxHeight="60" maxWidth="60" minHeight="60" minWidth="60" onMousePressed="#likeComment"
+                                prefHeight="60" prefWidth="60" style="-fx-background-color: green;-fx-cursor: hand">
+                            <shape>
+                                <SVGPath fx:id="likeSVG"
+                                         content="M147.6 301.3c-7.5-7.5-7.5-19.8 0-27.3l95.7-95.4c7.3-7.3 19.1-7.5 26.6-.6l94.3 94c3.8 3.8 5.7 8.7 5.7 13.7 0 4.9-1.9 9.9-5.6 13.6-7.5 7.5-19.7 7.6-27.3 0l-81-79.8-81.1 81.9c-7.5 7.5-19.7 7.5-27.3-.1z M256 464c114.9 0 208-93.1 208-208S370.9 48 256 48 48 141.1 48 256s93.1 208 208 208zm0-32c-47 0-91.2-18.3-124.4-51.6C98.3 347.2 80 303 80 256s18.3-91.2 51.6-124.4C164.8 98.3 209 80 256 80s91.2 18.3 124.4 51.6C413.7 164.8 432 209 432 256s-18.3 91.2-51.6 124.4C347.2 413.7 303 432 256 432z"/>
+                            </shape>
+                        </Region>
+                        <Region fx:id="buttonDislike" maxHeight="60" maxWidth="60" minHeight="60" minWidth="60" onMousePressed="#dislikeComment"
+                                prefHeight="60" prefWidth="60" style="-fx-background-color: red;-fx-cursor: hand">
+                            <shape>
+                                <SVGPath fx:id="dislikeSVG"
+                                         content="M147.6 210.7c-7.5 7.5-7.5 19.8 0 27.3l95.7 95.4c7.3 7.3 19.1 7.5 26.6.6l94.3-94c3.8-3.8 5.7-8.7 5.7-13.7 0-4.9-1.9-9.9-5.6-13.6-7.5-7.5-19.7-7.6-27.3 0l-81 79.8-81.1-81.9c-7.5-7.5-19.7-7.5-27.3.1z M48 256c0 114.9 93.1 208 208 208s208-93.1 208-208S370.9 48 256 48 48 141.1 48 256zm332.4-124.4C413.7 164.8 432 209 432 256s-18.3 91.2-51.6 124.4C347.2 413.7 303 432 256 432s-91.2-18.3-124.4-51.6C98.3 347.2 80 303 80 256s18.3-91.2 51.6-124.4C164.8 98.3 209 80 256 80s91.2 18.3 124.4 51.6z"/>
+                            </shape>
+                        </Region>
+                        <Region fx:id="buttonFavorite" maxHeight="60" maxWidth="60" minHeight="60" minWidth="60" onMousePressed="#favoriteComment"
+                                prefHeight="60" prefWidth="60" style="-fx-background-color: purple;-fx-cursor: hand">
+                            <shape>
+                                <SVGPath fx:id="favoriteSVG"
+                                         content="M352 56h-1c-39.7 0-74.8 21-95 52-20.2-31-55.3-52-95-52h-1c-61.9.6-112 50.9-112 113 0 37 16.2 89.5 47.8 132.7C156 384 256 456 256 456s100-72 160.2-154.3C447.8 258.5 464 206 464 169c0-62.1-50.1-112.4-112-113zm41.6 229.2C351 343.5 286.1 397.3 256 420.8c-30.1-23.5-95-77.4-137.6-135.7C89.1 245.1 76 198 76 169c0-22.6 8.8-43.8 24.6-59.8 15.9-16 37-24.9 59.6-25.1H161.1c14.3 0 28.5 3.7 41.1 10.8 12.2 6.9 22.8 16.7 30.4 28.5 5.2 7.9 14 12.7 23.5 12.7s18.3-4.8 23.5-12.7c7.7-11.8 18.2-21.6 30.4-28.5 12.6-7.1 26.8-10.8 41.1-10.8h.9c22.5.2 43.7 9.1 59.6 25.1 15.9 16 24.6 37.3 24.6 59.8-.2 29-13.3 76.1-42.6 116.2z"/>
+                            </shape>
+                        </Region>
+                        <Region fx:id="buttonShare" maxHeight="60" maxWidth="60" minHeight="60" minWidth="60"
+                                prefHeight="60" prefWidth="60" style="-fx-background-color: #595959;-fx-cursor: hand">
+                            <shape>
+                                <SVGPath
+                                        content="M444.7 230.4l-141.1-132c-1.7-1.6-3.3-2.5-5.6-2.4-4.4.2-10 3.3-10 8v66.2c0 2-1.6 3.8-3.6 4.1C144.1 195.8 85 300.8 64.1 409.8c-.8 4.3 5 8.3 7.7 4.9 51.2-64.5 113.5-106.6 212-107.4 2.2 0 4.2 2.6 4.2 4.8v65c0 7 9.3 10.1 14.5 5.3l142.1-134.3c2.6-2.4 3.4-5.2 3.5-8.4-.1-3.2-.9-6.9-3.4-9.3z"/>
+                            </shape>
+                        </Region>
+                    </HBox>
+                </VBox>
+                <padding>
+                    <Insets>
+                        <bottom>17</bottom>
+                    </Insets>
+                </padding>
+            </VBox>
+            <padding>
+                <Insets>
+                    <top>10</top>
+                </Insets>
+            </padding>
+        </ScrollPane>
+    </center>
+    <bottom>
+        <VBox spacing="0">
+            <Line startX="0" endX="374" strokeWidth="0.5" style="-fx-stroke: grey"/>
+            <HBox alignment="CENTER" prefHeight="55" spacing="30">
+                <VBox.margin>
+                    <Insets>
+                        <top>5</top>
+                    </Insets>
+                </VBox.margin>
+                <children>
+                    <VBox alignment="CENTER" prefWidth="55" spacing="2">
+                        <Region id="menuButton" onMouseClicked="#Selection" minHeight="35" maxHeight="35"
+                                prefHeight="35" minWidth="35" maxWidth="35" prefWidth="35"
+                                style="-fx-background-color: #595959">
+                            <shape>
+                                <SVGPath fx:id="starICON"/>
+                            </shape>
+                        </Region>
+                        <Label id="menuBarLabel" text="Sélection"/>
+                    </VBox>
+                    <VBox alignment="CENTER" prefWidth="55" spacing="2">
+                        <Region id="menuButton" onMouseClicked="#Rechercher" minHeight="35" maxHeight="35"
+                                prefHeight="35" minWidth="35" maxWidth="35" prefWidth="35"
+                                style="-fx-background-color: linear-gradient(#FF7606, #FF00BC)">
+                            <shape>
+                                <SVGPath fx:id="searchICON"/>
+                            </shape>
+                        </Region>
+                        <Label id="menuBarLabel" text="Rechercher"
+                               style="-fx-text-fill: linear-gradient(#FF7606, #FF00BC)"/>
+                    </VBox>
+                    <VBox alignment="CENTER" prefWidth="55" spacing="2">
+                        <Region id="menuButton" onMouseClicked="#Profil" minHeight="35" maxHeight="35" prefHeight="35"
+                                minWidth="35" maxWidth="35" prefWidth="35" style="-fx-background-color: #595959">
+                            <shape>
+                                <SVGPath fx:id="profileICON"/>
+                            </shape>
+                        </Region>
+                        <Label id="menuBarLabel" text="Profil"/>
+                    </VBox>
+                    <VBox alignment="CENTER" prefWidth="55" spacing="1">
+                        <Region id="menuButton" onMouseClicked="#Parametres" minHeight="35" maxHeight="35"
+                                prefHeight="35" minWidth="35" maxWidth="35" prefWidth="35"
+                                style="-fx-background-color: #595959">
+                            <shape>
+                                <SVGPath fx:id="settingsICON"/>
+                            </shape>
+                        </Region>
+                        <Label id="menuBarLabel" text="Paramètres"/>
+                    </VBox>
+                </children>
+            </HBox>
+        </VBox>
+    </bottom>
+
+</fx:root>

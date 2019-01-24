@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.layout.Region?>
+<fx:root fx:id="publierRoot" prefHeight="667" minHeight="667" maxHeight="667" prefWidth="375" minWidth="375"
+         maxWidth="375" styleClass="root"
+         type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8.0.121"
+         xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <HBox fx:id="top" alignment="CENTER_LEFT" spacing="5" onMouseClicked="#Resultats">
+            <children>
+                <SVGPath id="chevron" content="M 13 1 A 1 1 0 1 1 14 3 L 7 10 L 14 17 A 1 1 0 1 1 13 19 L 4 10 Z"
+                         scaleX="0.8" scaleY="0.8"/>
+                <Label id="retour" text="Retour">
+                </Label>
+            </children>
+            <padding>
+                <Insets>
+                    <top>8</top>
+                    <left>5</left>
+                </Insets>
+            </padding>
+        </HBox>
+    </top>
+    <center>
+        <VBox fx:id="vBox" alignment="TOP_CENTER" style="-fx-background-color: white">
+            <Label id="title" text="Publier">
+                <VBox.margin>
+                    <Insets>
+                        <top>30</top>
+                        <right>145</right>
+                    </Insets>
+                </VBox.margin>
+            </Label>
+
+            <Label fx:id="productName" prefWidth="255" minWidth="255" maxWidth="255" textAlignment="LEFT">
+                <VBox.margin>
+                    <Insets>
+                        <bottom>8</bottom>
+                    </Insets>
+                </VBox.margin>
+            </Label>
+
+            <TextField fx:id="commentTitle" maxWidth="255" promptText="Titre" style="-fx-text-fill: black;-fx-font-size: 110%;-fx-font-family: 'Avenir Light'">
+                <VBox.margin>
+                    <Insets>
+                        <bottom>12</bottom>
+                    </Insets>
+                </VBox.margin>
+            </TextField>
+
+            <HBox maxWidth="255" spacing="10" alignment="CENTER_LEFT">
+                <children>
+                    <Label text="Note attribuée">
+                        <HBox.margin>
+                            <Insets>
+                                <bottom>12</bottom>
+                            </Insets>
+                        </HBox.margin>
+                    </Label>
+                    <HBox spacing="1">
+                        <children>
+                            <Region onMouseEntered="#star1Pattern" minHeight="20" maxHeight="20" prefHeight="20"
+                                    minWidth="20" maxWidth="20" prefWidth="20"
+                                    style="-fx-background-color: #e2c422;-fx-cursor: hand">
+                                <shape>
+                                    <SVGPath fx:id="star1"/>
+                                </shape>
+                            </Region>
+                            <Region onMouseEntered="#star2Pattern" minHeight="20" maxHeight="20" prefHeight="20"
+                                    minWidth="20" maxWidth="20" prefWidth="20"
+                                    style="-fx-background-color: #e2c422;-fx-cursor: hand">
+                                <shape>
+                                    <SVGPath fx:id="star2"/>
+                                </shape>
+                            </Region>
+                            <Region onMouseEntered="#star3Pattern" minHeight="20" maxHeight="20" prefHeight="20"
+                                    minWidth="20" maxWidth="20" prefWidth="20"
+                                    style="-fx-background-color: #e2c422;-fx-cursor: hand">
+                                <shape>
+                                    <SVGPath fx:id="star3"/>
+                                </shape>
+                            </Region>
+                            <Region onMouseEntered="#star4Pattern" minHeight="20" maxHeight="20" prefHeight="20"
+                                    minWidth="20" maxWidth="20" prefWidth="20"
+                                    style="-fx-background-color: #e2c422;-fx-cursor: hand">
+                                <shape>
+                                    <SVGPath fx:id="star4"/>
+                                </shape>
+                            </Region>
+                            <Region onMouseEntered="#star5Pattern" minHeight="20" maxHeight="20" prefHeight="20"
+                                    minWidth="20" maxWidth="20" prefWidth="20"
+                                    style="-fx-background-color: #e2c422;-fx-cursor: hand">
+                                <shape>
+                                    <SVGPath fx:id="star5"/>
+                                </shape>
+                            </Region>
+                        </children>
+                        <HBox.margin>
+                            <Insets>
+                                <bottom>12</bottom>
+                            </Insets>
+                        </HBox.margin>
+                    </HBox>
+                </children>
+            </HBox>
+
+            <TextArea fx:id="commentContent" style="-fx-text-fill: black;-fx-font-size: 110%;-fx-font-family: 'Avenir Light'" maxWidth="255" prefHeight="200" maxHeight="200" minHeight="200"
+                      promptText="Description" wrapText="true">
+                <VBox.margin>
+                    <Insets>
+                        <bottom>20</bottom>
+                    </Insets>
+                </VBox.margin>
+            </TextArea>
+
+            <Button text="Ajouter une photo" prefHeight="30" prefWidth="255" style="-fx-background-color: #2B77E4;-fx-border-color: #20285C">
+                <VBox.margin>
+                    <Insets>
+                        <bottom>8</bottom>
+                    </Insets>
+                </VBox.margin>
+            </Button>
+
+            <Button text="Valider" onAction="#callPopUp" prefHeight="30" prefWidth="255" style="-fx-background-color: #009e0f;-fx-border-color: #004c07"/>
+
+        </VBox>
+    </center>
+
+    <bottom>
+        <VBox spacing="0">
+            <Line startX="0" endX="374" strokeWidth="0.5" style="-fx-stroke: grey"/>
+            <HBox alignment="CENTER" prefHeight="55" spacing="30">
+                <VBox.margin>
+                    <Insets>
+                        <top>5</top>
+                    </Insets>
+                </VBox.margin>
+                <children>
+                    <VBox alignment="CENTER" prefWidth="55" spacing="2">
+                        <Region id="menuButton" onMouseClicked="#Selection" minHeight="35" maxHeight="35"
+                                prefHeight="35" minWidth="35" maxWidth="35" prefWidth="35"
+                                style="-fx-background-color: #595959">
+                            <shape>
+                                <SVGPath fx:id="starICON"/>
+                            </shape>
+                        </Region>
+                        <Label id="menuBarLabel" text="Sélection"/>
+                    </VBox>
+                    <VBox alignment="CENTER" prefWidth="55" spacing="2">
+                        <Region id="menuButton" onMouseClicked="#Rechercher" minHeight="35" maxHeight="35"
+                                prefHeight="35" minWidth="35" maxWidth="35" prefWidth="35"
+                                style="-fx-background-color: linear-gradient(#FF7606, #FF00BC)">
+                            <shape>
+                                <SVGPath fx:id="searchICON"/>
+                            </shape>
+                        </Region>
+                        <Label id="menuBarLabel" text="Rechercher"
+                               style="-fx-text-fill: linear-gradient(#FF7606, #FF00BC)"/>
+                    </VBox>
+                    <VBox alignment="CENTER" prefWidth="55" spacing="2">
+                        <Region id="menuButton" onMouseClicked="#Profil" minHeight="35" maxHeight="35" prefHeight="35"
+                                minWidth="35" maxWidth="35" prefWidth="35" style="-fx-background-color: #595959">
+                            <shape>
+                                <SVGPath fx:id="profileICON"/>
+                            </shape>
+                        </Region>
+                        <Label id="menuBarLabel" text="Profil"/>
+                    </VBox>
+                    <VBox alignment="CENTER" prefWidth="55" spacing="1">
+                        <Region id="menuButton" onMouseClicked="#Parametres" minHeight="35" maxHeight="35"
+                                prefHeight="35" minWidth="35" maxWidth="35" prefWidth="35"
+                                style="-fx-background-color: #595959">
+                            <shape>
+                                <SVGPath fx:id="settingsICON"/>
+                            </shape>
+                        </Region>
+                        <Label id="menuBarLabel" text="Paramètres"/>
+                    </VBox>
+                </children>
+            </HBox>
+        </VBox>
+    </bottom>
+</fx:root>

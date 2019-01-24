@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<fx:root fx:id="rechercherRoot" prefHeight="667" minHeight="667" maxHeight="667" prefWidth="375" minWidth="375"
+         maxWidth="375" styleClass="root" type="javafx.scene.layout.BorderPane" xmlns:bottom="http://javafx.com/fxml"
+         xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <ScrollPane hbarPolicy="NEVER" maxWidth="375" minWidth="375" vbarPolicy="NEVER"
+                    style="-fx-background-color: white;-fx-border-color: white">
+            <content>
+                <VBox fx:id="vBoxContent" style="-fx-background-color: white;-fx-border-color: white">
+                    <Label id="title" text="Rechercher">
+                        <VBox.margin>
+                            <Insets>
+                                <top>30</top>
+                                <left>30</left>
+                                <bottom>5</bottom>
+                            </Insets>
+                        </VBox.margin>
+                    </Label>
+                    <AnchorPane>
+                        <TextField fx:id="searchBar" minWidth="312" maxWidth="312" prefWidth="312"
+                                   promptText="Saisir un mot clé"/>
+                        <Region layoutX="10" layoutY="9" minHeight="15" maxHeight="15" prefHeight="15" minWidth="15"
+                                maxWidth="15" prefWidth="15" style="-fx-background-color: #595959">
+                            <shape>
+                                <SVGPath fx:id="searchBarIcon"/>
+                            </shape>
+                        </Region>
+                        <Region layoutX="288" layoutY="9" minHeight="15" maxHeight="15" prefHeight="15" minWidth="15"
+                                maxWidth="15" prefWidth="15" style="-fx-background-color: #595959">
+                            <shape>
+                                <SVGPath
+                                        content="M255.8 48C141 48 48 141.2 48 256s93 208 207.8 208c115 0 208.2-93.2 208.2-208S370.8 48 255.8 48zm.2 374.4c-91.9 0-166.4-74.5-166.4-166.4S164.1 89.6 256 89.6 422.4 164.1 422.4 256 347.9 422.4 256 422.4z M266.4 152h-31.2v124.8l109.2 65.5 15.6-25.6-93.6-55.5V152z"/>
+                            </shape>
+                        </Region>
+                        <VBox.margin>
+                            <Insets>
+                                <left>30</left>
+                                <bottom>20</bottom>
+                            </Insets>
+                        </VBox.margin>
+                    </AnchorPane>
+                </VBox>
+            </content>
+        </ScrollPane>
+    </center>
+    <bottom>
+        <VBox spacing="0">
+            <Line startX="0" endX="374" strokeWidth="0.5" style="-fx-stroke: grey"/>
+            <HBox alignment="CENTER" prefHeight="55" spacing="30">
+                <VBox.margin>
+                    <Insets>
+                        <top>5</top>
+                    </Insets>
+                </VBox.margin>
+                <children>
+                    <VBox alignment="CENTER" prefWidth="55" spacing="2">
+                        <Region id="menuButton" onMouseClicked="#Selection" minHeight="35" maxHeight="35"
+                                prefHeight="35" minWidth="35" maxWidth="35" prefWidth="35"
+                                style="-fx-background-color: #595959">
+                            <shape>
+                                <SVGPath fx:id="starICON"/>
+                            </shape>
+                        </Region>
+                        <Label id="menuBarLabel" text="Sélection"/>
+                    </VBox>
+                    <VBox alignment="CENTER" prefWidth="55" spacing="2">
+                        <Region id="menuButton" onMouseClicked="#Rechercher" minHeight="35" maxHeight="35"
+                                prefHeight="35" minWidth="35" maxWidth="35" prefWidth="35"
+                                style="-fx-background-color: linear-gradient(#FF7606, #FF00BC)">
+                            <shape>
+                                <SVGPath fx:id="searchICON"/>
+                            </shape>
+                        </Region>
+                        <Label id="menuBarLabel" text="Rechercher"
+                               style="-fx-text-fill: linear-gradient(#FF7606, #FF00BC)"/>
+                    </VBox>
+                    <VBox alignment="CENTER" prefWidth="55" spacing="2">
+                        <Region id="menuButton" onMouseClicked="#Profil" minHeight="35" maxHeight="35" prefHeight="35"
+                                minWidth="35" maxWidth="35" prefWidth="35" style="-fx-background-color: #595959">
+                            <shape>
+                                <SVGPath fx:id="profileICON"/>
+                            </shape>
+                        </Region>
+                        <Label id="menuBarLabel" text="Profil"/>
+                    </VBox>
+                    <VBox alignment="CENTER" prefWidth="55" spacing="1">
+                        <Region id="menuButton" onMouseClicked="#Parametres" minHeight="35" maxHeight="35"
+                                prefHeight="35" minWidth="35" maxWidth="35" prefWidth="35"
+                                style="-fx-background-color: #595959">
+                            <shape>
+                                <SVGPath fx:id="settingsICON"/>
+                            </shape>
+                        </Region>
+                        <Label id="menuBarLabel" text="Paramètres"/>
+                    </VBox>
+                </children>
+            </HBox>
+        </VBox>
+    </bottom>
+
+</fx:root>
