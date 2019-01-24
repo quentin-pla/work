@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css"/>
+		<script src="javascript.js"></script>
+		<title>Checked</title>
+		<meta charset="utf-8"/>
+		<link rel="icon" type="image/png" href="Images/logo.PNG"/>
+	</head>
+	<body onload="contact()">
+		<button onclick="topFunction()" id="return-top">▲</button>
+		<div class="rectangle_h">
+			<img id="nomprojet" src="Images/checked.PNG" width="150" height="84.25">
+			<img id="logo" src="Images/logo.PNG" width="45" height="43.75">
+			<div id="hovera"></div>
+			<a href="index.html" id="a_projet" onmouseover="hovera_in(this)" onmouseout="hovera_out(this)">PROJET</a>
+			<a href="equipe.html" id="a_equipe" onmouseover="hovera_in(this)" onmouseout="hovera_out(this)">ÉQUIPE</a>
+			<a href="contact.html" id="a_contact" onmouseover="hovera_in(this)" onmouseout="hovera_out(this)">CONTACT</a>
+			<div id="separateur"></div>
+		</div>
+		<div id="blocref">
+			<div class="contact">
+				<h1>Vous souhaitez nous joindre ?</h1>
+				<div class="mail">
+					<button onclick="mail()">Cliquez ici</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
