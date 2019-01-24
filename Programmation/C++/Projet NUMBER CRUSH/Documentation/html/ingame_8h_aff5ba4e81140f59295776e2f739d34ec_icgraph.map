@@ -1,0 +1,16 @@
+<map id="CalcPercentage" name="CalcPercentage">
+<area shape="rect" id="node2" href="$display_8h.html#a39a7d88fa10d13a7ef05485a7b42dc67" title="DisplayStars affiche le pourcentage et les étoiles au dessus de la barre de progression (1er étoile =..." alt="" coords="189,170,286,196"/>
+<area shape="rect" id="node14" href="$display_8h.html#a91eab476771d28a0752e85888d477f9b" title="DisplayProgressBar affiche la barre de progression. " alt="" coords="168,119,307,146"/>
+<area shape="rect" id="node15" href="$ingame_8h.html#a357e1a065c7e8aebe8cc1df46ce31a28" title="GameStats. " alt="" coords="633,220,721,247"/>
+<area shape="rect" id="node3" href="$display_8h.html#a985915bc685c3aa57c3b75c4720b071f" title="DisplayWindow affiche la grille et tout le reste de la fenêtre en appelant chaque fonctions indépenda..." alt="" coords="355,119,468,146"/>
+<area shape="rect" id="node4" href="$gamemods_8h.html#a4735fa2a3f1f10abe10b610510680b3c" title="GAME_ClassicMod permet de jouer en mode classique du jeu c&#39;est&#45;à&#45;dire qu&#39;il faut aligner au moins 3 c..." alt="" coords="772,195,909,222"/>
+<area shape="rect" id="node7" href="$gamemods_8h.html#afb4190e75f694b88fc919cb938bb9d6d" title="GAME_DiagonalMod permet de jouer en mode diagonal du jeu c&#39;est&#45;à&#45;dire qu&#39;il faut aligner au moins 3 c..." alt="" coords="1233,246,1377,272"/>
+<area shape="rect" id="node12" href="$ingame_8h.html#afbd1bef0eeee45e421b3578f66acba35" title="SetPos permet de sélectionner la position horizontale et verticale de la case que l&#39;on souhaite..." alt="" coords="516,119,581,146"/>
+<area shape="rect" id="node5" href="$display_8h.html#ae89e5a96380a3c5e6d8c198020696084" title="ShowMenu affiche le menu de sélection du mode de jeu (choix entre CLASSIC, DIAGONAL, RULES) " alt="" coords="957,195,1044,222"/>
+<area shape="rect" id="node6" href="$display_8h.html#ab77f0cd8eb631a2675c55cbb24bc4fee" title="GameOver affiche la fenêtre &quot;GAME OVER&quot; lorsque le joueur a perdu. " alt="" coords="1096,296,1181,323"/>
+<area shape="rect" id="node8" href="$display_8h.html#a2136d186fc0e7a3e00be122068e5810c" title="WinGame affiche la fenêtre &quot;YOU WIN&quot; lorsque le joueur a gagné " alt="" coords="1099,347,1179,374"/>
+<area shape="rect" id="node9" href="$display_8h.html#a5a4378a081a78a48ba12ec54a6a1a299" title="ShowRules affiche les régles des différents modes de jeu ainsi que les actions définies pour chaque t..." alt="" coords="1094,144,1183,171"/>
+<area shape="rect" id="node10" href="$display_8h.html#ad2f3df7bd5ff146b699003a5d7bdfd7c" title="Connexion affiche la page de connexion où le joueur se connecte avec son pseudo. " alt="" coords="1097,195,1181,222"/>
+<area shape="rect" id="node11" href="$display_8h.html#a8084e88f83b951438d2d556697b62260" title="ShowLevels affiche les différents niveaux disponibles pour chaque mode de jeu. " alt="" coords="1092,94,1185,120"/>
+<area shape="rect" id="node13" href="$ingame_8h.html#a60837ded3ac39240259c93509f783ba8" title="MakeAMove. " alt="" coords="629,119,724,146"/>
+</map>

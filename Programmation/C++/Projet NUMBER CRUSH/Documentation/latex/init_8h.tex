@@ -1,0 +1,234 @@
+\hypertarget{init_8h}{\section{init.\+h File Reference}
+\label{init_8h}\index{init.\+h@{init.\+h}}
+}
+
+
+Fonctions d'initialisation.  
+
+
+{\ttfamily \#include \char`\"{}params2.\+h\char`\"{}}\\*
+Include dependency graph for init.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{init_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{init_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{init_8h_a69f66a6accb166c57bb7930bad085a20}{Reset\+Data} (int \&Score, int \&Game\+Choice, int \&Level\+Choice, int \&Hits)
+\begin{DoxyCompactList}\small\item\em Reset\+Data reinitialise les données. \end{DoxyCompactList}\item 
+void \hyperlink{init_8h_a43e6a452a6a528430946355ed0a7becb}{Init\+Grid2} (C\+Mat \&Grid, const unsigned \&Size)
+\begin{DoxyCompactList}\small\item\em Init\+Grid2 génère des nombres aléatoires dans la grille. \end{DoxyCompactList}\item 
+void \hyperlink{init_8h_a8417e51a7c975bc6404280ef54bdb509}{Init\+Leader\+Board} (ifstream \&ifs, C\+Mat\+Str \&Leader\+Board, int \&Game\+Choice)
+\begin{DoxyCompactList}\small\item\em Init\+Leader\+Board en fonction du mode de jeu lit le fichier texte associé afin de remplir la matrice Leader\+Board avec le nom du joueur et son score. \end{DoxyCompactList}\item 
+void \hyperlink{init_8h_a075b1473c05c7c715501bff357e16b32}{Check\+Grid} (C\+Mat \&Grid)
+\begin{DoxyCompactList}\small\item\em Check\+Grid vérifie que la grille ne contienne pas 3 mêmes chiffres d'affilé \end{DoxyCompactList}\item 
+void \hyperlink{init_8h_aa4699d640d199fc44a0c98dc6a5d45f5}{Couleur} (const string \&coul)
+\begin{DoxyCompactList}\small\item\em Couleur détermine la couleur du fond de la case en fonction du chiffre. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Fonctions d'initialisation. 
+
+\begin{DoxyAuthor}{Author}
+Quentin Pla, Léo Vincent, Emma tarfi, Sirine Achache, Julien Vavrille
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+26 janvier 2018 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{init_8h_source}{init.\+h}.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{init_8h_a075b1473c05c7c715501bff357e16b32}{\index{init.\+h@{init.\+h}!Check\+Grid@{Check\+Grid}}
+\index{Check\+Grid@{Check\+Grid}!init.\+h@{init.\+h}}
+\subsubsection[{Check\+Grid}]{\setlength{\rightskip}{0pt plus 5cm}void Check\+Grid (
+\begin{DoxyParamCaption}
+\item[{C\+Mat \&}]{Grid}
+\end{DoxyParamCaption}
+)}}\label{init_8h_a075b1473c05c7c715501bff357e16b32}
+
+
+Check\+Grid vérifie que la grille ne contienne pas 3 mêmes chiffres d'affilé 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Grid\mbox{[}in,out\mbox{]}} & Grille contenant les nombres \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 68 of file init.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{init_8h_a075b1473c05c7c715501bff357e16b32_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{init_8h_aa4699d640d199fc44a0c98dc6a5d45f5}{\index{init.\+h@{init.\+h}!Couleur@{Couleur}}
+\index{Couleur@{Couleur}!init.\+h@{init.\+h}}
+\subsubsection[{Couleur}]{\setlength{\rightskip}{0pt plus 5cm}void Couleur (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{coul}
+\end{DoxyParamCaption}
+)}}\label{init_8h_aa4699d640d199fc44a0c98dc6a5d45f5}
+
+
+Couleur détermine la couleur du fond de la case en fonction du chiffre. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em coul\mbox{[}in\mbox{]}} & nombre permettant de définir la couleur de fond \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 82 of file init.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{init_8h_aa4699d640d199fc44a0c98dc6a5d45f5_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{init_8h_a43e6a452a6a528430946355ed0a7becb}{\index{init.\+h@{init.\+h}!Init\+Grid2@{Init\+Grid2}}
+\index{Init\+Grid2@{Init\+Grid2}!init.\+h@{init.\+h}}
+\subsubsection[{Init\+Grid2}]{\setlength{\rightskip}{0pt plus 5cm}void Init\+Grid2 (
+\begin{DoxyParamCaption}
+\item[{C\+Mat \&}]{Grid, }
+\item[{const unsigned \&}]{Size}
+\end{DoxyParamCaption}
+)}}\label{init_8h_a43e6a452a6a528430946355ed0a7becb}
+
+
+Init\+Grid2 génère des nombres aléatoires dans la grille. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Grid\mbox{[}in,out\mbox{]}} & Grille contenant les nombres \\
+\hline
+{\em Size\mbox{[}in\mbox{]}} & Taille de la grille \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 14 of file init.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{init_8h_a43e6a452a6a528430946355ed0a7becb_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{init_8h_a8417e51a7c975bc6404280ef54bdb509}{\index{init.\+h@{init.\+h}!Init\+Leader\+Board@{Init\+Leader\+Board}}
+\index{Init\+Leader\+Board@{Init\+Leader\+Board}!init.\+h@{init.\+h}}
+\subsubsection[{Init\+Leader\+Board}]{\setlength{\rightskip}{0pt plus 5cm}void Init\+Leader\+Board (
+\begin{DoxyParamCaption}
+\item[{ifstream \&}]{ifs, }
+\item[{C\+Mat\+Str \&}]{Leader\+Board, }
+\item[{int \&}]{Game\+Choice}
+\end{DoxyParamCaption}
+)}}\label{init_8h_a8417e51a7c975bc6404280ef54bdb509}
+
+
+Init\+Leader\+Board en fonction du mode de jeu lit le fichier texte associé afin de remplir la matrice Leader\+Board avec le nom du joueur et son score. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ifs\mbox{[}in\mbox{]}} & flux d'entrée permettant de lire les données d'un fichier \\
+\hline
+{\em Leader\+Board\mbox{[}in,out\mbox{]}} & Matrice contenant l'ensemble des scores des joueurs pour chaque niveau \\
+\hline
+{\em Game\+Choice\mbox{[}in\mbox{]}} & Mode de jeu choisi par l'utilisateur \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 23 of file init.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{init_8h_a8417e51a7c975bc6404280ef54bdb509_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{init_8h_a69f66a6accb166c57bb7930bad085a20}{\index{init.\+h@{init.\+h}!Reset\+Data@{Reset\+Data}}
+\index{Reset\+Data@{Reset\+Data}!init.\+h@{init.\+h}}
+\subsubsection[{Reset\+Data}]{\setlength{\rightskip}{0pt plus 5cm}void Reset\+Data (
+\begin{DoxyParamCaption}
+\item[{int \&}]{Score, }
+\item[{int \&}]{Game\+Choice, }
+\item[{int \&}]{Level\+Choice, }
+\item[{int \&}]{Hits}
+\end{DoxyParamCaption}
+)}}\label{init_8h_a69f66a6accb166c57bb7930bad085a20}
+
+
+Reset\+Data reinitialise les données. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Score\mbox{[}in,out\mbox{]}} & Score du joueur \\
+\hline
+{\em Game\+Choice\mbox{[}in,out\mbox{]}} & Mode de jeu choisi par l'utilisateur \\
+\hline
+{\em Level\+Choice\mbox{[}in,out\mbox{]}} & Level choisi par l'utilisateur \\
+\hline
+{\em Hits\mbox{[}in,out\mbox{]}} & Nombre de coups utilisés \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 6 of file init.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{init_8h_a69f66a6accb166c57bb7930bad085a20_icgraph}
+\end{center}
+\end{figure}
+
+

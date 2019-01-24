@@ -1,0 +1,14 @@
+<map id="canonic.h" name="canonic.h">
+<area shape="rect" id="node2" href="$params2_8h.html" title="Changement de couleur des bords à chaque lancement du jeu. " alt="" coords="353,80,435,107"/>
+<area shape="rect" id="node5" href="$display_8cpp_source.html" title="display.cpp" alt="" coords="354,229,442,256"/>
+<area shape="rect" id="node7" href="$ingame_8cpp_source.html" title="ingame.cpp" alt="" coords="5,229,95,256"/>
+<area shape="rect" id="node13" href="$canonic_8cpp_source.html" title="canonic.cpp" alt="" coords="655,80,747,107"/>
+<area shape="rect" id="node3" href="$display_8h.html" title="Affichage du jeu à l&#39;écran. " alt="" coords="87,155,162,181"/>
+<area shape="rect" id="node8" href="$ingame_8h.html" title="Fonctionnalité du jeu en interaction avec le joueur. " alt="" coords="186,155,261,181"/>
+<area shape="rect" id="node9" href="$init_8h.html" title="Fonctions d&#39;initialisation. " alt="" coords="529,155,579,181"/>
+<area shape="rect" id="node11" href="$gamemods_8h.html" title="Les différents modes de jeu. " alt="" coords="285,155,383,181"/>
+<area shape="rect" id="node12" href="$params2_8cpp_source.html" title="params2.cpp" alt="" coords="407,155,504,181"/>
+<area shape="rect" id="node4" href="$main_8cpp_source.html" title="main.cpp" alt="" coords="119,229,194,256"/>
+<area shape="rect" id="node6" href="$gamemods_8cpp_source.html" title="gamemods.cpp" alt="" coords="219,229,329,256"/>
+<area shape="rect" id="node10" href="$init_8cpp_source.html" title="init.cpp" alt="" coords="522,229,586,256"/>
+</map>

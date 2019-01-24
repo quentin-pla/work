@@ -1,0 +1,754 @@
+\hypertarget{ingame_8h}{\section{ingame.\+h File Reference}
+\label{ingame_8h}\index{ingame.\+h@{ingame.\+h}}
+}
+
+
+Fonctionnalité du jeu en interaction avec le joueur.  
+
+
+{\ttfamily \#include \char`\"{}params2.\+h\char`\"{}}\\*
+Include dependency graph for ingame.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{ingame_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{ingame_8h_afbd1bef0eeee45e421b3578f66acba35}{Set\+Pos} (C\+Position \&Pos, const C\+Mat \&Grid, const C\+Mat\+Str \&Leader\+Board, int \&Score\+For\+Next\+Lvl, int \&Score, int \&Level\+Choice, int \&Maximal\+Hits, int \&Hits)
+\begin{DoxyCompactList}\small\item\em Set\+Pos permet de sélectionner la position horizontale et verticale de la case que l'on souhaite. \end{DoxyCompactList}\item 
+void \hyperlink{ingame_8h_a295fed03353e3a7d18d3a64a572b99ec}{Set\+Direction} (C\+Mat \&Grid, C\+Position \&Pos, char \&Direction, bool \&Next\+Number)
+\begin{DoxyCompactList}\small\item\em Set\+Direction permet de choisir la directionn souhaitée (haut, bas , gauche, droite) \end{DoxyCompactList}\item 
+void \hyperlink{ingame_8h_a60837ded3ac39240259c93509f783ba8}{Make\+A\+Move} (C\+Mat \&Grid, C\+Position \&Pos, char \&Direction, bool \&Next\+Number, const C\+Mat\+Str \&Leader\+Board, int \&Score\+For\+Next\+Lvl, int \&Score, int \&Level\+Choice, int \&Maximal\+Hits, int \&Hits)
+\begin{DoxyCompactList}\small\item\em Make\+A\+Move. \end{DoxyCompactList}\item 
+void \hyperlink{ingame_8h_a3782b9c91c01c218dd60721fa091a274}{Removal\+In\+Diagonal\+Nord\+Est} (C\+Mat \&Grid, const C\+Position \&Pos, unsigned \&How\+Many)
+\begin{DoxyCompactList}\small\item\em Removal\+In\+Diagonal\+Nord\+Est. \end{DoxyCompactList}\item 
+bool \hyperlink{ingame_8h_a4a09f89d72703bc9b9fc08c19781e80b}{At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Est} (const C\+Mat \&Grid, C\+Position \&Pos, unsigned \&How\+Many)
+\begin{DoxyCompactList}\small\item\em At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Est. \end{DoxyCompactList}\item 
+void \hyperlink{ingame_8h_aabc4dce46a5efcd51f169098ba015727}{Removal\+In\+Diagonal\+Nord\+Ouest} (C\+Mat \&Grid, const C\+Position \&Pos, unsigned \&How\+Many)
+\begin{DoxyCompactList}\small\item\em Removal\+In\+Diagonal\+Nord\+Ouest. \end{DoxyCompactList}\item 
+bool \hyperlink{ingame_8h_afee55318480451016786e0433af2faa2}{At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Ouest} (const C\+Mat \&Grid, C\+Position \&Pos, unsigned \&How\+Many)
+\begin{DoxyCompactList}\small\item\em At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Ouest. \end{DoxyCompactList}\item 
+\hypertarget{ingame_8h_a20d8e08354ac89596a7d16427fe378a2}{void {\bfseries Removal\+In\+Row} (C\+Mat \&Grid, const C\+Position \&Pos, unsigned \&How\+Many)}\label{ingame_8h_a20d8e08354ac89596a7d16427fe378a2}
+
+\item 
+bool \hyperlink{ingame_8h_ab13e1001573be4964b0b6b28f53b904b}{At\+Least\+Three\+In\+A\+Row} (C\+Mat \&Grid, C\+Position \&Pos, unsigned \&How\+Many, unsigned \&Saved\+Number)
+\begin{DoxyCompactList}\small\item\em At\+Least\+Three\+In\+A\+Row. \end{DoxyCompactList}\item 
+void \hyperlink{ingame_8h_ae08a929793a9f09a17e40cc361e4f1b6}{Removal\+In\+Column} (C\+Mat \&Grid, const C\+Position \&Pos, unsigned \&How\+Many)
+\begin{DoxyCompactList}\small\item\em Removal\+In\+Column. \end{DoxyCompactList}\item 
+bool \hyperlink{ingame_8h_a108e24a88952cbfc5db26c2d1fef4633}{At\+Least\+Three\+In\+A\+Column} (const C\+Mat \&Grid, C\+Position \&Pos, unsigned \&How\+Many, unsigned \&Saved\+Number)
+\begin{DoxyCompactList}\small\item\em At\+Least\+Three\+In\+A\+Column. \end{DoxyCompactList}\item 
+void \hyperlink{ingame_8h_a5ca54be49179a28392f4ca76639ea63f}{Replace\+K\+Impossible\+Numbers} (C\+Mat \&Grid)
+\begin{DoxyCompactList}\small\item\em Replace\+K\+Impossible\+Numbers. \end{DoxyCompactList}\item 
+void \hyperlink{ingame_8h_aa3578b144300dcc54634d4edb8aacebc}{Update\+Score} (const unsigned \&How\+Many, int \&Score)
+\begin{DoxyCompactList}\small\item\em Update\+Score. \end{DoxyCompactList}\item 
+string \hyperlink{ingame_8h_a357e1a065c7e8aebe8cc1df46ce31a28}{Game\+Stats} (int \&Score\+For\+Next\+Lvl, int \&Score, int \&Maximal\+Hits, int \&Hits)
+\begin{DoxyCompactList}\small\item\em Game\+Stats. \end{DoxyCompactList}\item 
+void \hyperlink{ingame_8h_ad02fc64961716c22249708018aa1da56}{Check\+New\+Record} (C\+Mat\+Str \&Leader\+Board, int \&Score, int \&Game\+Choice, int \&Level\+Choice, const string \&Pseudo)
+\begin{DoxyCompactList}\small\item\em Check\+New\+Record. \end{DoxyCompactList}\item 
+unsigned \hyperlink{ingame_8h_aff5ba4e81140f59295776e2f739d34ec}{Calc\+Percentage} (int \&Score\+For\+Next\+Lvl, int \&Score)
+\begin{DoxyCompactList}\small\item\em Calc\+Percentage. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Fonctionnalité du jeu en interaction avec le joueur. 
+
+\begin{DoxyAuthor}{Author}
+Quentin Pla, Léo Vincent, Emma tarfi, Sirine Achache, Julien Vavrille
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+26 janvier 2018 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{ingame_8h_source}{ingame.\+h}.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{ingame_8h_a108e24a88952cbfc5db26c2d1fef4633}{\index{ingame.\+h@{ingame.\+h}!At\+Least\+Three\+In\+A\+Column@{At\+Least\+Three\+In\+A\+Column}}
+\index{At\+Least\+Three\+In\+A\+Column@{At\+Least\+Three\+In\+A\+Column}!ingame.\+h@{ingame.\+h}}
+\subsubsection[{At\+Least\+Three\+In\+A\+Column}]{\setlength{\rightskip}{0pt plus 5cm}bool At\+Least\+Three\+In\+A\+Column (
+\begin{DoxyParamCaption}
+\item[{const C\+Mat \&}]{Grid, }
+\item[{C\+Position \&}]{Pos, }
+\item[{unsigned \&}]{How\+Many, }
+\item[{unsigned \&}]{Saved\+Number}
+\end{DoxyParamCaption}
+)}}\label{ingame_8h_a108e24a88952cbfc5db26c2d1fef4633}
+
+
+At\+Least\+Three\+In\+A\+Column. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Grid\mbox{[}in\mbox{]}} & Grille contenant les nombres \\
+\hline
+{\em Pos\mbox{[}in,out\mbox{]}} & Contient la position de la case sélectionnée par l'utilisateur \\
+\hline
+{\em How\+Many\mbox{[}in,out\mbox{]}} & Variable qui contient le nombre de même nombres alignés \\
+\hline
+{\em Saved\+Number\mbox{[}in,out\mbox{]}} & Nombre sauvegardé à chaque début de série puis remplacé en fin de série par le prochain nombre différent de celui sauvegardé \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+booléen qui détermine s'il reste encore des séries de nombres alignés 
+\end{DoxyReturn}
+
+
+Definition at line 215 of file ingame.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_a108e24a88952cbfc5db26c2d1fef4633_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ingame_8h_a4a09f89d72703bc9b9fc08c19781e80b}{\index{ingame.\+h@{ingame.\+h}!At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Est@{At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Est}}
+\index{At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Est@{At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Est}!ingame.\+h@{ingame.\+h}}
+\subsubsection[{At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Est}]{\setlength{\rightskip}{0pt plus 5cm}bool At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Est (
+\begin{DoxyParamCaption}
+\item[{const C\+Mat \&}]{Grid, }
+\item[{C\+Position \&}]{Pos, }
+\item[{unsigned \&}]{How\+Many}
+\end{DoxyParamCaption}
+)}}\label{ingame_8h_a4a09f89d72703bc9b9fc08c19781e80b}
+
+
+At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Est. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Grid\mbox{[}in\mbox{]}} & Grille contenant les nombres \\
+\hline
+{\em Pos\mbox{[}in,out\mbox{]}} & Contient la position de la case sélectionnée par l'utilisateur \\
+\hline
+{\em How\+Many\mbox{[}in,out\mbox{]}} & Variable qui contient le nombre de même nombres alignés\mbox{[}in\mbox{]} Variable qui contient le nombre de même nombres alignés \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+booléen qui détermine s'il reste encore des séries de nombres alignés 
+\end{DoxyReturn}
+
+
+Definition at line 114 of file ingame.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_a4a09f89d72703bc9b9fc08c19781e80b_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ingame_8h_afee55318480451016786e0433af2faa2}{\index{ingame.\+h@{ingame.\+h}!At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Ouest@{At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Ouest}}
+\index{At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Ouest@{At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Ouest}!ingame.\+h@{ingame.\+h}}
+\subsubsection[{At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Ouest}]{\setlength{\rightskip}{0pt plus 5cm}bool At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Ouest (
+\begin{DoxyParamCaption}
+\item[{const C\+Mat \&}]{Grid, }
+\item[{C\+Position \&}]{Pos, }
+\item[{unsigned \&}]{How\+Many}
+\end{DoxyParamCaption}
+)}}\label{ingame_8h_afee55318480451016786e0433af2faa2}
+
+
+At\+Least\+Three\+In\+A\+Diagonal\+Nord\+Ouest. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Grid\mbox{[}in\mbox{]}} & Grille contenant les nombres \\
+\hline
+{\em Pos\mbox{[}in,out\mbox{]}} & Contient la position de la case sélectionnée par l'utilisateur \\
+\hline
+{\em How\+Many\mbox{[}in,out\mbox{]}} & Variable qui contient le nombre de même nombres alignés \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+booléen qui détermine s'il reste encore des séries de nombres alignés 
+\end{DoxyReturn}
+
+
+Definition at line 146 of file ingame.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_afee55318480451016786e0433af2faa2_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ingame_8h_ab13e1001573be4964b0b6b28f53b904b}{\index{ingame.\+h@{ingame.\+h}!At\+Least\+Three\+In\+A\+Row@{At\+Least\+Three\+In\+A\+Row}}
+\index{At\+Least\+Three\+In\+A\+Row@{At\+Least\+Three\+In\+A\+Row}!ingame.\+h@{ingame.\+h}}
+\subsubsection[{At\+Least\+Three\+In\+A\+Row}]{\setlength{\rightskip}{0pt plus 5cm}bool At\+Least\+Three\+In\+A\+Row (
+\begin{DoxyParamCaption}
+\item[{C\+Mat \&}]{Grid, }
+\item[{C\+Position \&}]{Pos, }
+\item[{unsigned \&}]{How\+Many, }
+\item[{unsigned \&}]{Saved\+Number}
+\end{DoxyParamCaption}
+)}}\label{ingame_8h_ab13e1001573be4964b0b6b28f53b904b}
+
+
+At\+Least\+Three\+In\+A\+Row. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Grid\mbox{[}in\mbox{]}} & Grille contenant les nombres \\
+\hline
+{\em Pos\mbox{[}in,out\mbox{]}} & Contient la position de la case sélectionnée par l'utilisateur \\
+\hline
+{\em How\+Many\mbox{[}in,out\mbox{]}} & Variable qui contient le nombre de même nombres alignés \\
+\hline
+{\em Saved\+Number\mbox{[}in,out\mbox{]}} & Nombre sauvegardé à chaque début de série puis remplacé en fin de série par le prochain nombre différent de celui sauvegardé\mbox{[}in,out\mbox{]} Nombre sauvegardé à chaque début de série puis remplacé en fin de série par le prochain nombre différent de celui sauvegardé \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+booléen qui détermine s'il reste encore des séries de nombres alignés 
+\end{DoxyReturn}
+
+
+Definition at line 179 of file ingame.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_ab13e1001573be4964b0b6b28f53b904b_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ingame_8h_aff5ba4e81140f59295776e2f739d34ec}{\index{ingame.\+h@{ingame.\+h}!Calc\+Percentage@{Calc\+Percentage}}
+\index{Calc\+Percentage@{Calc\+Percentage}!ingame.\+h@{ingame.\+h}}
+\subsubsection[{Calc\+Percentage}]{\setlength{\rightskip}{0pt plus 5cm}unsigned Calc\+Percentage (
+\begin{DoxyParamCaption}
+\item[{int \&}]{Score\+For\+Next\+Lvl, }
+\item[{int \&}]{Score}
+\end{DoxyParamCaption}
+)}}\label{ingame_8h_aff5ba4e81140f59295776e2f739d34ec}
+
+
+Calc\+Percentage. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Score\+For\+Next\+Lvl\mbox{[}in\mbox{]}} & Score à atteindre pour gagner le niveau \\
+\hline
+{\em Score\mbox{[}in\mbox{]}} & Score du joueur \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 262 of file ingame.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_aff5ba4e81140f59295776e2f739d34ec_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ingame_8h_ad02fc64961716c22249708018aa1da56}{\index{ingame.\+h@{ingame.\+h}!Check\+New\+Record@{Check\+New\+Record}}
+\index{Check\+New\+Record@{Check\+New\+Record}!ingame.\+h@{ingame.\+h}}
+\subsubsection[{Check\+New\+Record}]{\setlength{\rightskip}{0pt plus 5cm}void Check\+New\+Record (
+\begin{DoxyParamCaption}
+\item[{C\+Mat\+Str \&}]{Leader\+Board, }
+\item[{int \&}]{Score, }
+\item[{int \&}]{Game\+Choice, }
+\item[{int \&}]{Level\+Choice, }
+\item[{const string \&}]{Pseudo}
+\end{DoxyParamCaption}
+)}}\label{ingame_8h_ad02fc64961716c22249708018aa1da56}
+
+
+Check\+New\+Record. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Leader\+Board\mbox{[}in,out\mbox{]}} & Matrice contenant l'ensemble des scores des joueurs pour chaque niveau \\
+\hline
+{\em Score\mbox{[}in\mbox{]}} & Score du joueur \\
+\hline
+{\em Game\+Choice\mbox{[}in\mbox{]}} & Mode de jeu choisi par l'utilisateur \\
+\hline
+{\em Level\+Choice\mbox{[}in\mbox{]}} & Level choisi par l'utilisateur \\
+\hline
+{\em Pseudo\mbox{[}in\mbox{]}} & Pseudo du joueur entré au début du jeu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 280 of file ingame.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_ad02fc64961716c22249708018aa1da56_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ingame_8h_a357e1a065c7e8aebe8cc1df46ce31a28}{\index{ingame.\+h@{ingame.\+h}!Game\+Stats@{Game\+Stats}}
+\index{Game\+Stats@{Game\+Stats}!ingame.\+h@{ingame.\+h}}
+\subsubsection[{Game\+Stats}]{\setlength{\rightskip}{0pt plus 5cm}string Game\+Stats (
+\begin{DoxyParamCaption}
+\item[{int \&}]{Score\+For\+Next\+Lvl, }
+\item[{int \&}]{Score, }
+\item[{int \&}]{Maximal\+Hits, }
+\item[{int \&}]{Hits}
+\end{DoxyParamCaption}
+)}}\label{ingame_8h_a357e1a065c7e8aebe8cc1df46ce31a28}
+
+
+Game\+Stats. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Score\+For\+Next\+Lvl\mbox{[}in\mbox{]}} & Score à atteindre pour gagner le niveau \\
+\hline
+{\em Score\mbox{[}in\mbox{]}} & Score du joueur \\
+\hline
+{\em Maximal\+Hits\mbox{[}in\mbox{]}} & Nombre maximum de coups attribués pour le level \\
+\hline
+{\em Hits\mbox{[}in\mbox{]}} & Nombre de coups utilisés \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string qui permet de savoir si le joueur à perdu, gagné, ou s'il peut toujours continuer à jouer 
+\end{DoxyReturn}
+
+
+Definition at line 273 of file ingame.\+cpp.
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{ingame_8h_a357e1a065c7e8aebe8cc1df46ce31a28_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_a357e1a065c7e8aebe8cc1df46ce31a28_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ingame_8h_a60837ded3ac39240259c93509f783ba8}{\index{ingame.\+h@{ingame.\+h}!Make\+A\+Move@{Make\+A\+Move}}
+\index{Make\+A\+Move@{Make\+A\+Move}!ingame.\+h@{ingame.\+h}}
+\subsubsection[{Make\+A\+Move}]{\setlength{\rightskip}{0pt plus 5cm}void Make\+A\+Move (
+\begin{DoxyParamCaption}
+\item[{C\+Mat \&}]{Grid, }
+\item[{C\+Position \&}]{Pos, }
+\item[{char \&}]{Direction, }
+\item[{bool \&}]{Next\+Number, }
+\item[{const C\+Mat\+Str \&}]{Leader\+Board, }
+\item[{int \&}]{Score\+For\+Next\+Lvl, }
+\item[{int \&}]{Score, }
+\item[{int \&}]{Level\+Choice, }
+\item[{int \&}]{Maximal\+Hits, }
+\item[{int \&}]{Hits}
+\end{DoxyParamCaption}
+)}}\label{ingame_8h_a60837ded3ac39240259c93509f783ba8}
+
+
+Make\+A\+Move. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Grid\mbox{[}in\mbox{]}} & Grille contenant les nombres \\
+\hline
+{\em Pos\mbox{[}in\mbox{]}} & Contient la position de la case sélectionnée par l'utilisateur \\
+\hline
+{\em Direction\mbox{[}in\mbox{]}} & Caractère contenant la direction choisie \\
+\hline
+{\em Next\+Number\mbox{[}in,out\mbox{]}} & Booléen qui vérifie si le nombre a bien été échangé \\
+\hline
+{\em Leader\+Board\mbox{[}in\mbox{]}} & Matrice contenant l'ensemble des scores des joueurs pour chaque niveau \\
+\hline
+{\em Score\+For\+Next\+Lvl\mbox{[}in\mbox{]}} & Score à atteindre pour gagner le niveau \\
+\hline
+{\em Score\mbox{[}in\mbox{]}} & Score du joueur \\
+\hline
+{\em Level\+Choice\mbox{[}in\mbox{]}} & Level choisi par l'utilisateur \\
+\hline
+{\em Maximal\+Hits\mbox{[}in\mbox{]}} & Nombre maximum de coups attribués pour le level \\
+\hline
+{\em Hits\mbox{[}in\mbox{]}} & Nombre de coups utilisés \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 88 of file ingame.\+cpp.
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_a60837ded3ac39240259c93509f783ba8_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_a60837ded3ac39240259c93509f783ba8_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ingame_8h_ae08a929793a9f09a17e40cc361e4f1b6}{\index{ingame.\+h@{ingame.\+h}!Removal\+In\+Column@{Removal\+In\+Column}}
+\index{Removal\+In\+Column@{Removal\+In\+Column}!ingame.\+h@{ingame.\+h}}
+\subsubsection[{Removal\+In\+Column}]{\setlength{\rightskip}{0pt plus 5cm}void Removal\+In\+Column (
+\begin{DoxyParamCaption}
+\item[{C\+Mat \&}]{Grid, }
+\item[{const C\+Position \&}]{Pos, }
+\item[{unsigned \&}]{How\+Many}
+\end{DoxyParamCaption}
+)}}\label{ingame_8h_ae08a929793a9f09a17e40cc361e4f1b6}
+
+
+Removal\+In\+Column. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Grid\mbox{[}in,out\mbox{]}} & Grille contenant les nombres \\
+\hline
+{\em Pos\mbox{[}in\mbox{]}} & Contient la position de la case sélectionnée par l'utilisateur \\
+\hline
+{\em How\+Many\mbox{[}in\mbox{]}} & Variable qui contient le nombre de même nombres alignés \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 204 of file ingame.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_ae08a929793a9f09a17e40cc361e4f1b6_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ingame_8h_a3782b9c91c01c218dd60721fa091a274}{\index{ingame.\+h@{ingame.\+h}!Removal\+In\+Diagonal\+Nord\+Est@{Removal\+In\+Diagonal\+Nord\+Est}}
+\index{Removal\+In\+Diagonal\+Nord\+Est@{Removal\+In\+Diagonal\+Nord\+Est}!ingame.\+h@{ingame.\+h}}
+\subsubsection[{Removal\+In\+Diagonal\+Nord\+Est}]{\setlength{\rightskip}{0pt plus 5cm}void Removal\+In\+Diagonal\+Nord\+Est (
+\begin{DoxyParamCaption}
+\item[{C\+Mat \&}]{Grid, }
+\item[{const C\+Position \&}]{Pos, }
+\item[{unsigned \&}]{How\+Many}
+\end{DoxyParamCaption}
+)}}\label{ingame_8h_a3782b9c91c01c218dd60721fa091a274}
+
+
+Removal\+In\+Diagonal\+Nord\+Est. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Grid\mbox{[}in,out\mbox{]}} & Grille contenant les nombres \\
+\hline
+{\em Pos\mbox{[}in\mbox{]}} & Contient la position de la case sélectionnée par l'utilisateur \\
+\hline
+{\em How\+Many\mbox{[}in\mbox{]}} & Variable qui contient le nombre de même nombres alignés\mbox{[}in\mbox{]} Variable qui contient le nombre de même nombres alignés \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 102 of file ingame.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_a3782b9c91c01c218dd60721fa091a274_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ingame_8h_aabc4dce46a5efcd51f169098ba015727}{\index{ingame.\+h@{ingame.\+h}!Removal\+In\+Diagonal\+Nord\+Ouest@{Removal\+In\+Diagonal\+Nord\+Ouest}}
+\index{Removal\+In\+Diagonal\+Nord\+Ouest@{Removal\+In\+Diagonal\+Nord\+Ouest}!ingame.\+h@{ingame.\+h}}
+\subsubsection[{Removal\+In\+Diagonal\+Nord\+Ouest}]{\setlength{\rightskip}{0pt plus 5cm}void Removal\+In\+Diagonal\+Nord\+Ouest (
+\begin{DoxyParamCaption}
+\item[{C\+Mat \&}]{Grid, }
+\item[{const C\+Position \&}]{Pos, }
+\item[{unsigned \&}]{How\+Many}
+\end{DoxyParamCaption}
+)}}\label{ingame_8h_aabc4dce46a5efcd51f169098ba015727}
+
+
+Removal\+In\+Diagonal\+Nord\+Ouest. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Grid\mbox{[}in,out\mbox{]}} & Grille contenant les nombres \\
+\hline
+{\em Pos\mbox{[}in\mbox{]}} & Contient la position de la case sélectionnée par l'utilisateur \\
+\hline
+{\em How\+Many\mbox{[}in\mbox{]}} & Variable qui contient le nombre de même nombres alignés \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 134 of file ingame.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_aabc4dce46a5efcd51f169098ba015727_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ingame_8h_a5ca54be49179a28392f4ca76639ea63f}{\index{ingame.\+h@{ingame.\+h}!Replace\+K\+Impossible\+Numbers@{Replace\+K\+Impossible\+Numbers}}
+\index{Replace\+K\+Impossible\+Numbers@{Replace\+K\+Impossible\+Numbers}!ingame.\+h@{ingame.\+h}}
+\subsubsection[{Replace\+K\+Impossible\+Numbers}]{\setlength{\rightskip}{0pt plus 5cm}void Replace\+K\+Impossible\+Numbers (
+\begin{DoxyParamCaption}
+\item[{C\+Mat \&}]{Grid}
+\end{DoxyParamCaption}
+)}}\label{ingame_8h_a5ca54be49179a28392f4ca76639ea63f}
+
+
+Replace\+K\+Impossible\+Numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Grid\mbox{[}in,out\mbox{]}} & Grille contenant les nombres \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 240 of file ingame.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_a5ca54be49179a28392f4ca76639ea63f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ingame_8h_a295fed03353e3a7d18d3a64a572b99ec}{\index{ingame.\+h@{ingame.\+h}!Set\+Direction@{Set\+Direction}}
+\index{Set\+Direction@{Set\+Direction}!ingame.\+h@{ingame.\+h}}
+\subsubsection[{Set\+Direction}]{\setlength{\rightskip}{0pt plus 5cm}void Set\+Direction (
+\begin{DoxyParamCaption}
+\item[{C\+Mat \&}]{Grid, }
+\item[{C\+Position \&}]{Pos, }
+\item[{char \&}]{Direction, }
+\item[{bool \&}]{Next\+Number}
+\end{DoxyParamCaption}
+)}}\label{ingame_8h_a295fed03353e3a7d18d3a64a572b99ec}
+
+
+Set\+Direction permet de choisir la directionn souhaitée (haut, bas , gauche, droite) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Grid\mbox{[}in\mbox{]}} & Grille contenant les nombres \\
+\hline
+{\em Pos\mbox{[}in\mbox{]}} & Contient la position de la case sélectionnée par l'utilisateur \\
+\hline
+{\em Direction\mbox{[}in,out\mbox{]}} & Caractère contenant la direction choisie \\
+\hline
+{\em Next\+Number\mbox{[}in,out\mbox{]}} & Booléen qui vérifie si le nombre a bien été échangé \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 41 of file ingame.\+cpp.
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_a295fed03353e3a7d18d3a64a572b99ec_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_a295fed03353e3a7d18d3a64a572b99ec_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ingame_8h_afbd1bef0eeee45e421b3578f66acba35}{\index{ingame.\+h@{ingame.\+h}!Set\+Pos@{Set\+Pos}}
+\index{Set\+Pos@{Set\+Pos}!ingame.\+h@{ingame.\+h}}
+\subsubsection[{Set\+Pos}]{\setlength{\rightskip}{0pt plus 5cm}void Set\+Pos (
+\begin{DoxyParamCaption}
+\item[{C\+Position \&}]{Pos, }
+\item[{const C\+Mat \&}]{Grid, }
+\item[{const C\+Mat\+Str \&}]{Leader\+Board, }
+\item[{int \&}]{Score\+For\+Next\+Lvl, }
+\item[{int \&}]{Score, }
+\item[{int \&}]{Level\+Choice, }
+\item[{int \&}]{Maximal\+Hits, }
+\item[{int \&}]{Hits}
+\end{DoxyParamCaption}
+)}}\label{ingame_8h_afbd1bef0eeee45e421b3578f66acba35}
+
+
+Set\+Pos permet de sélectionner la position horizontale et verticale de la case que l'on souhaite. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Pos\mbox{[}in,out\mbox{]}} & Contient la position de la case sélectionnée par l'utilisateur \\
+\hline
+{\em Grid\mbox{[}in\mbox{]}} & Grille contenant les nombres \\
+\hline
+{\em Leader\+Board\mbox{[}in\mbox{]}} & Matrice contenant l'ensemble des scores des joueurs pour chaque niveau \\
+\hline
+{\em Score\+For\+Next\+Lvl\mbox{[}in\mbox{]}} & Score à atteindre pour gagner le niveau \\
+\hline
+{\em Score\mbox{[}in\mbox{]}} & Score du joueur \\
+\hline
+{\em Level\+Choice\mbox{[}in\mbox{]}} & Level choisi par l'utilisateur \\
+\hline
+{\em Maximal\+Hits\mbox{[}in\mbox{]}} & Nombre maximum de coups attribués pour le level \\
+\hline
+{\em Hits\mbox{[}in\mbox{]}} & Nombre de coups utilisés \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 8 of file ingame.\+cpp.
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_afbd1bef0eeee45e421b3578f66acba35_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_afbd1bef0eeee45e421b3578f66acba35_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ingame_8h_aa3578b144300dcc54634d4edb8aacebc}{\index{ingame.\+h@{ingame.\+h}!Update\+Score@{Update\+Score}}
+\index{Update\+Score@{Update\+Score}!ingame.\+h@{ingame.\+h}}
+\subsubsection[{Update\+Score}]{\setlength{\rightskip}{0pt plus 5cm}void Update\+Score (
+\begin{DoxyParamCaption}
+\item[{const unsigned \&}]{How\+Many, }
+\item[{int \&}]{Score}
+\end{DoxyParamCaption}
+)}}\label{ingame_8h_aa3578b144300dcc54634d4edb8aacebc}
+
+
+Update\+Score. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em How\+Many\mbox{[}in\mbox{]}} & Variable qui contient le nombre de même nombres alignés \\
+\hline
+{\em Score\mbox{[}in,out\mbox{]}} & Score du joueur \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 252 of file ingame.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ingame_8h_aa3578b144300dcc54634d4edb8aacebc_icgraph}
+\end{center}
+\end{figure}
+
+

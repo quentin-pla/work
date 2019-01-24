@@ -1,0 +1,45 @@
+#1
+Brrete = 78 ;
+111 = 69 ;
+SkyDuriel = 69 ;
+
+#2
+Unknown = 0 ;
+Unknown = 0 ;
+Unknown = 0 ;
+
+#3
+Unknown = 0 ;
+Unknown = 0 ;
+Unknown = 0 ;
+
+#4
+Unknown = 0 ;
+Unknown = 0 ;
+Unknown = 0 ;
+
+#5
+Unknown = 0 ;
+Unknown = 0 ;
+Unknown = 0 ;
+
+#6
+Unknown = 0 ;
+Unknown = 0 ;
+Unknown = 0 ;
+
+#7
+Unknown = 0 ;
+Unknown = 0 ;
+Unknown = 0 ;
+
+#8
+Unknown = 0 ;
+Unknown = 0 ;
+Unknown = 0 ;
+
+#9
+Unknown = 0 ;
+Unknown = 0 ;
+Unknown = 0 ;
+

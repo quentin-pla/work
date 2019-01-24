@@ -1,0 +1,638 @@
+\hypertarget{display_8h}{\section{display.\+h File Reference}
+\label{display_8h}\index{display.\+h@{display.\+h}}
+}
+
+
+Affichage du jeu à l'écran.  
+
+
+{\ttfamily \#include \char`\"{}params2.\+h\char`\"{}}\\*
+Include dependency graph for display.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{display_8h_aa9714056a06d1518bdc6306412206580}{void \hyperlink{display_8h_aa9714056a06d1518bdc6306412206580}{Clear\+Screen2} ()}\label{display_8h_aa9714056a06d1518bdc6306412206580}
+
+\begin{DoxyCompactList}\small\item\em Clear\+Screen2 efface l'écran. \end{DoxyCompactList}\item 
+void \hyperlink{display_8h_a52d0ca86ff2a0ef127c0893799011754}{Display\+Window\+Borders} (unsigned Repeat)
+\begin{DoxyCompactList}\small\item\em Display\+Window\+Borders affiche les bords de la fenêtre. \end{DoxyCompactList}\item 
+void \hyperlink{display_8h_ac55c396e9d5a9409e1e6a7be81364f19}{Display\+Help\+Lines} (const C\+Mat \&Grid)
+\begin{DoxyCompactList}\small\item\em Display\+Help\+Lines affiche les indices autour de la grille (de 1 à 9) \end{DoxyCompactList}\item 
+void \hyperlink{display_8h_a1e6c116d2cd9c1b8ad9280fa2e200ca5}{Display\+Score} (int \&Score)
+\begin{DoxyCompactList}\small\item\em Display\+Score affiche le score du joueur. \end{DoxyCompactList}\item 
+void \hyperlink{display_8h_a5d48918d8cc1a3379e776d48dcdf2e2b}{Display\+Remaining\+Hits} (int \&Maximal\+Hits, int \&Hits)
+\begin{DoxyCompactList}\small\item\em Display\+Remaining\+Hits affiche le nombre de coups restant. \end{DoxyCompactList}\item 
+void \hyperlink{display_8h_a894fa592807b0958bf0e73d740452a62}{Display\+Leader\+Board} (const int \&Player\+Pos, const C\+Mat\+Str \&Leader\+Board, int \&Level\+Choice)
+\begin{DoxyCompactList}\small\item\em Display\+Leader\+Board affiche le classement des meilleurs scores du 1er au 3e (affiche le nom du joueur et son score) \end{DoxyCompactList}\item 
+void \hyperlink{display_8h_a39a7d88fa10d13a7ef05485a7b42dc67}{Display\+Stars} (int \&Score\+For\+Next\+Lvl, int \&Score)
+\begin{DoxyCompactList}\small\item\em Display\+Stars affiche le pourcentage et les étoiles au dessus de la barre de progression (1er étoile = score atteind à 100\%, 2e à 150\% et 3e à 200\%) \end{DoxyCompactList}\item 
+void \hyperlink{display_8h_a91eab476771d28a0752e85888d477f9b}{Display\+Progress\+Bar} (int \&Score\+For\+Next\+Lvl, int \&Score)
+\begin{DoxyCompactList}\small\item\em Display\+Progress\+Bar affiche la barre de progression. \end{DoxyCompactList}\item 
+\hypertarget{display_8h_a6c3c37c60f48772ed93ef51a142f0dc8}{void \hyperlink{display_8h_a6c3c37c60f48772ed93ef51a142f0dc8}{Display\+Header} ()}\label{display_8h_a6c3c37c60f48772ed93ef51a142f0dc8}
+
+\begin{DoxyCompactList}\small\item\em Display\+Header affiche la partie haute de la fenêtre contenant \char`\"{}\+N\+U\+M\+B\+E\+R C\+R\+U\+S\+H\char`\"{}. \end{DoxyCompactList}\item 
+void \hyperlink{display_8h_a985915bc685c3aa57c3b75c4720b071f}{Display\+Window} (const C\+Mat \&Grid, const C\+Mat\+Str \&Leader\+Board, int \&Score\+For\+Next\+Lvl, int \&Score, int \&Level\+Choice, int \&Maximal\+Hits, int \&Hits)
+\begin{DoxyCompactList}\small\item\em Display\+Window affiche la grille et tout le reste de la fenêtre en appelant chaque fonctions indépendamment. \end{DoxyCompactList}\item 
+void \hyperlink{display_8h_ab77f0cd8eb631a2675c55cbb24bc4fee}{Game\+Over} (const string \&Pseudo)
+\begin{DoxyCompactList}\small\item\em Game\+Over affiche la fenêtre \char`\"{}\+G\+A\+M\+E O\+V\+E\+R\char`\"{} lorsque le joueur a perdu. \end{DoxyCompactList}\item 
+void \hyperlink{display_8h_a2136d186fc0e7a3e00be122068e5810c}{Win\+Game} (const string \&Pseudo)
+\begin{DoxyCompactList}\small\item\em Win\+Game affiche la fenêtre \char`\"{}\+Y\+O\+U W\+I\+N\char`\"{} lorsque le joueur a gagné \end{DoxyCompactList}\item 
+void \hyperlink{display_8h_ae89e5a96380a3c5e6d8c198020696084}{Show\+Menu} (const string \&Pseudo)
+\begin{DoxyCompactList}\small\item\em Show\+Menu affiche le menu de sélection du mode de jeu (choix entre C\+L\+A\+S\+S\+I\+C, D\+I\+A\+G\+O\+N\+A\+L, R\+U\+L\+E\+S) \end{DoxyCompactList}\item 
+void \hyperlink{display_8h_a5a4378a081a78a48ba12ec54a6a1a299}{Show\+Rules} (const string \&Pseudo)
+\begin{DoxyCompactList}\small\item\em Show\+Rules affiche les régles des différents modes de jeu ainsi que les actions définies pour chaque touche. \end{DoxyCompactList}\item 
+\hypertarget{display_8h_ad2f3df7bd5ff146b699003a5d7bdfd7c}{void \hyperlink{display_8h_ad2f3df7bd5ff146b699003a5d7bdfd7c}{Connexion} ()}\label{display_8h_ad2f3df7bd5ff146b699003a5d7bdfd7c}
+
+\begin{DoxyCompactList}\small\item\em Connexion affiche la page de connexion où le joueur se connecte avec son pseudo. \end{DoxyCompactList}\item 
+void \hyperlink{display_8h_a8084e88f83b951438d2d556697b62260}{Show\+Levels} (C\+Mat \&Grid, int \&Score\+For\+Next\+Lvl, int \&Level\+Choice, int \&Maximal\+Hits, const string \&Pseudo)
+\begin{DoxyCompactList}\small\item\em Show\+Levels affiche les différents niveaux disponibles pour chaque mode de jeu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Affichage du jeu à l'écran. 
+
+\begin{DoxyAuthor}{Author}
+Quentin Pla, Léo Vincent, Emma tarfi, Sirine Achache, Julien Vavrille
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+26 janvier 2018 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{display_8h_source}{display.\+h}.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{display_8h_ac55c396e9d5a9409e1e6a7be81364f19}{\index{display.\+h@{display.\+h}!Display\+Help\+Lines@{Display\+Help\+Lines}}
+\index{Display\+Help\+Lines@{Display\+Help\+Lines}!display.\+h@{display.\+h}}
+\subsubsection[{Display\+Help\+Lines}]{\setlength{\rightskip}{0pt plus 5cm}void Display\+Help\+Lines (
+\begin{DoxyParamCaption}
+\item[{const C\+Mat \&}]{Grid}
+\end{DoxyParamCaption}
+)}}\label{display_8h_ac55c396e9d5a9409e1e6a7be81364f19}
+
+
+Display\+Help\+Lines affiche les indices autour de la grille (de 1 à 9) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Grid\mbox{[}in\mbox{]}} & Grille contenant les nombres \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 29 of file display.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_ac55c396e9d5a9409e1e6a7be81364f19_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{display_8h_a894fa592807b0958bf0e73d740452a62}{\index{display.\+h@{display.\+h}!Display\+Leader\+Board@{Display\+Leader\+Board}}
+\index{Display\+Leader\+Board@{Display\+Leader\+Board}!display.\+h@{display.\+h}}
+\subsubsection[{Display\+Leader\+Board}]{\setlength{\rightskip}{0pt plus 5cm}void Display\+Leader\+Board (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{Player\+Pos, }
+\item[{const C\+Mat\+Str \&}]{Leader\+Board, }
+\item[{int \&}]{Level\+Choice}
+\end{DoxyParamCaption}
+)}}\label{display_8h_a894fa592807b0958bf0e73d740452a62}
+
+
+Display\+Leader\+Board affiche le classement des meilleurs scores du 1er au 3e (affiche le nom du joueur et son score) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Player\+Pos\mbox{[}in\mbox{]}} & Ligne à afficher du classement (de 0 à 4) \\
+\hline
+{\em Leader\+Board\mbox{[}in\mbox{]}} & Matrice contenant l'ensemble des scores des joueurs pour chaque niveau \\
+\hline
+{\em Level\+Choice\mbox{[}in\mbox{]}} & Niveau sélectionné \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 50 of file display.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_a894fa592807b0958bf0e73d740452a62_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{display_8h_a91eab476771d28a0752e85888d477f9b}{\index{display.\+h@{display.\+h}!Display\+Progress\+Bar@{Display\+Progress\+Bar}}
+\index{Display\+Progress\+Bar@{Display\+Progress\+Bar}!display.\+h@{display.\+h}}
+\subsubsection[{Display\+Progress\+Bar}]{\setlength{\rightskip}{0pt plus 5cm}void Display\+Progress\+Bar (
+\begin{DoxyParamCaption}
+\item[{int \&}]{Score\+For\+Next\+Lvl, }
+\item[{int \&}]{Score}
+\end{DoxyParamCaption}
+)}}\label{display_8h_a91eab476771d28a0752e85888d477f9b}
+
+
+Display\+Progress\+Bar affiche la barre de progression. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Score\+For\+Next\+Lvl\mbox{[}in\mbox{]}} & Score à atteindre pour gagner le niveau \\
+\hline
+{\em Score\mbox{[}in\mbox{]}} & Score du joueur \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 76 of file display.\+cpp.
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{display_8h_a91eab476771d28a0752e85888d477f9b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_a91eab476771d28a0752e85888d477f9b_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{display_8h_a5d48918d8cc1a3379e776d48dcdf2e2b}{\index{display.\+h@{display.\+h}!Display\+Remaining\+Hits@{Display\+Remaining\+Hits}}
+\index{Display\+Remaining\+Hits@{Display\+Remaining\+Hits}!display.\+h@{display.\+h}}
+\subsubsection[{Display\+Remaining\+Hits}]{\setlength{\rightskip}{0pt plus 5cm}void Display\+Remaining\+Hits (
+\begin{DoxyParamCaption}
+\item[{int \&}]{Maximal\+Hits, }
+\item[{int \&}]{Hits}
+\end{DoxyParamCaption}
+)}}\label{display_8h_a5d48918d8cc1a3379e776d48dcdf2e2b}
+
+
+Display\+Remaining\+Hits affiche le nombre de coups restant. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Maximal\+Hits\mbox{[}in\mbox{]}} & Nombre maximum de coups attribués pour le level \\
+\hline
+{\em Hits\mbox{[}in\mbox{]}} & Nombre de coups utilisés \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 45 of file display.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_a5d48918d8cc1a3379e776d48dcdf2e2b_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{display_8h_a1e6c116d2cd9c1b8ad9280fa2e200ca5}{\index{display.\+h@{display.\+h}!Display\+Score@{Display\+Score}}
+\index{Display\+Score@{Display\+Score}!display.\+h@{display.\+h}}
+\subsubsection[{Display\+Score}]{\setlength{\rightskip}{0pt plus 5cm}void Display\+Score (
+\begin{DoxyParamCaption}
+\item[{int \&}]{Score}
+\end{DoxyParamCaption}
+)}}\label{display_8h_a1e6c116d2cd9c1b8ad9280fa2e200ca5}
+
+
+Display\+Score affiche le score du joueur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Score\mbox{[}in\mbox{]}} & Score du joueur \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 40 of file display.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_a1e6c116d2cd9c1b8ad9280fa2e200ca5_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{display_8h_a39a7d88fa10d13a7ef05485a7b42dc67}{\index{display.\+h@{display.\+h}!Display\+Stars@{Display\+Stars}}
+\index{Display\+Stars@{Display\+Stars}!display.\+h@{display.\+h}}
+\subsubsection[{Display\+Stars}]{\setlength{\rightskip}{0pt plus 5cm}void Display\+Stars (
+\begin{DoxyParamCaption}
+\item[{int \&}]{Score\+For\+Next\+Lvl, }
+\item[{int \&}]{Score}
+\end{DoxyParamCaption}
+)}}\label{display_8h_a39a7d88fa10d13a7ef05485a7b42dc67}
+
+
+Display\+Stars affiche le pourcentage et les étoiles au dessus de la barre de progression (1er étoile = score atteind à 100\%, 2e à 150\% et 3e à 200\%) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Score\+For\+Next\+Lvl\mbox{[}in\mbox{]}} & Score à atteindre pour gagner le niveau \\
+\hline
+{\em Score\mbox{[}in\mbox{]}} & Score du joueur \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 63 of file display.\+cpp.
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=275pt]{display_8h_a39a7d88fa10d13a7ef05485a7b42dc67_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_a39a7d88fa10d13a7ef05485a7b42dc67_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{display_8h_a985915bc685c3aa57c3b75c4720b071f}{\index{display.\+h@{display.\+h}!Display\+Window@{Display\+Window}}
+\index{Display\+Window@{Display\+Window}!display.\+h@{display.\+h}}
+\subsubsection[{Display\+Window}]{\setlength{\rightskip}{0pt plus 5cm}void Display\+Window (
+\begin{DoxyParamCaption}
+\item[{const C\+Mat \&}]{Grid, }
+\item[{const C\+Mat\+Str \&}]{Leader\+Board, }
+\item[{int \&}]{Score\+For\+Next\+Lvl, }
+\item[{int \&}]{Score, }
+\item[{int \&}]{Level\+Choice, }
+\item[{int \&}]{Maximal\+Hits, }
+\item[{int \&}]{Hits}
+\end{DoxyParamCaption}
+)}}\label{display_8h_a985915bc685c3aa57c3b75c4720b071f}
+
+
+Display\+Window affiche la grille et tout le reste de la fenêtre en appelant chaque fonctions indépendamment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Grid\mbox{[}in\mbox{]}} & Grille contenant les nombres \\
+\hline
+{\em Leader\+Board\mbox{[}in\mbox{]}} & Matrice contenant l'ensemble des scores des joueurs pour chaque niveau \\
+\hline
+{\em Score\+For\+Next\+Lvl\mbox{[}in\mbox{]}} & Score à atteindre pour gagner le niveau \\
+\hline
+{\em Score\mbox{[}in\mbox{]}} & Score du joueur \\
+\hline
+{\em Level\+Choice\mbox{[}in\mbox{]}} & Level choisi par l'utilisateur \\
+\hline
+{\em Maximal\+Hits\mbox{[}in\mbox{]}} & Nombre maximum de coups attribués pour le level \\
+\hline
+{\em Hits\mbox{[}in\mbox{]}} & Nombre de coups utilisés \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 98 of file display.\+cpp.
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_a985915bc685c3aa57c3b75c4720b071f_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_a985915bc685c3aa57c3b75c4720b071f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{display_8h_a52d0ca86ff2a0ef127c0893799011754}{\index{display.\+h@{display.\+h}!Display\+Window\+Borders@{Display\+Window\+Borders}}
+\index{Display\+Window\+Borders@{Display\+Window\+Borders}!display.\+h@{display.\+h}}
+\subsubsection[{Display\+Window\+Borders}]{\setlength{\rightskip}{0pt plus 5cm}void Display\+Window\+Borders (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{Repeat}
+\end{DoxyParamCaption}
+)}}\label{display_8h_a52d0ca86ff2a0ef127c0893799011754}
+
+
+Display\+Window\+Borders affiche les bords de la fenêtre. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Repeat\mbox{[}in\mbox{]}} & Nombre de répétitions pour l'affichage des bords \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 20 of file display.\+cpp.
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_a52d0ca86ff2a0ef127c0893799011754_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{display_8h_ab77f0cd8eb631a2675c55cbb24bc4fee}{\index{display.\+h@{display.\+h}!Game\+Over@{Game\+Over}}
+\index{Game\+Over@{Game\+Over}!display.\+h@{display.\+h}}
+\subsubsection[{Game\+Over}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Over (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{Pseudo}
+\end{DoxyParamCaption}
+)}}\label{display_8h_ab77f0cd8eb631a2675c55cbb24bc4fee}
+
+
+Game\+Over affiche la fenêtre \char`\"{}\+G\+A\+M\+E O\+V\+E\+R\char`\"{} lorsque le joueur a perdu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Pseudo\mbox{[}in\mbox{]}} & Pseudo du joueur entré au début du jeu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 143 of file display.\+cpp.
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_ab77f0cd8eb631a2675c55cbb24bc4fee_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_ab77f0cd8eb631a2675c55cbb24bc4fee_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{display_8h_a8084e88f83b951438d2d556697b62260}{\index{display.\+h@{display.\+h}!Show\+Levels@{Show\+Levels}}
+\index{Show\+Levels@{Show\+Levels}!display.\+h@{display.\+h}}
+\subsubsection[{Show\+Levels}]{\setlength{\rightskip}{0pt plus 5cm}void Show\+Levels (
+\begin{DoxyParamCaption}
+\item[{C\+Mat \&}]{Grid, }
+\item[{int \&}]{Score\+For\+Next\+Lvl, }
+\item[{int \&}]{Level\+Choice, }
+\item[{int \&}]{Maximal\+Hits, }
+\item[{const string \&}]{Pseudo}
+\end{DoxyParamCaption}
+)}}\label{display_8h_a8084e88f83b951438d2d556697b62260}
+
+
+Show\+Levels affiche les différents niveaux disponibles pour chaque mode de jeu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Grid\mbox{[}in\mbox{]}} & Grille contenant les nombres \\
+\hline
+{\em Score\+For\+Next\+Lvl\mbox{[}in,out\mbox{]}} & Score à atteindre pour gagner le niveau \\
+\hline
+{\em Level\+Choice\mbox{[}in,out\mbox{]}} & Level choisi par l'utilisateur \\
+\hline
+{\em Maximal\+Hits\mbox{[}in,out\mbox{]}} & Nombre maximum de coups attribués pour le level \\
+\hline
+{\em Pseudo\mbox{[}in\mbox{]}} & Pseudo du joueur entré au début du jeu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 295 of file display.\+cpp.
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_a8084e88f83b951438d2d556697b62260_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_a8084e88f83b951438d2d556697b62260_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{display_8h_ae89e5a96380a3c5e6d8c198020696084}{\index{display.\+h@{display.\+h}!Show\+Menu@{Show\+Menu}}
+\index{Show\+Menu@{Show\+Menu}!display.\+h@{display.\+h}}
+\subsubsection[{Show\+Menu}]{\setlength{\rightskip}{0pt plus 5cm}void Show\+Menu (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{Pseudo}
+\end{DoxyParamCaption}
+)}}\label{display_8h_ae89e5a96380a3c5e6d8c198020696084}
+
+
+Show\+Menu affiche le menu de sélection du mode de jeu (choix entre C\+L\+A\+S\+S\+I\+C, D\+I\+A\+G\+O\+N\+A\+L, R\+U\+L\+E\+S) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Pseudo\mbox{[}in\mbox{]}} & Pseudo du joueur entré au début du jeu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 224 of file display.\+cpp.
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_ae89e5a96380a3c5e6d8c198020696084_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_ae89e5a96380a3c5e6d8c198020696084_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{display_8h_a5a4378a081a78a48ba12ec54a6a1a299}{\index{display.\+h@{display.\+h}!Show\+Rules@{Show\+Rules}}
+\index{Show\+Rules@{Show\+Rules}!display.\+h@{display.\+h}}
+\subsubsection[{Show\+Rules}]{\setlength{\rightskip}{0pt plus 5cm}void Show\+Rules (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{Pseudo}
+\end{DoxyParamCaption}
+)}}\label{display_8h_a5a4378a081a78a48ba12ec54a6a1a299}
+
+
+Show\+Rules affiche les régles des différents modes de jeu ainsi que les actions définies pour chaque touche. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Pseudo\mbox{[}in\mbox{]}} & Pseudo du joueur entré au début du jeu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 175 of file display.\+cpp.
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_a5a4378a081a78a48ba12ec54a6a1a299_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_a5a4378a081a78a48ba12ec54a6a1a299_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{display_8h_a2136d186fc0e7a3e00be122068e5810c}{\index{display.\+h@{display.\+h}!Win\+Game@{Win\+Game}}
+\index{Win\+Game@{Win\+Game}!display.\+h@{display.\+h}}
+\subsubsection[{Win\+Game}]{\setlength{\rightskip}{0pt plus 5cm}void Win\+Game (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{Pseudo}
+\end{DoxyParamCaption}
+)}}\label{display_8h_a2136d186fc0e7a3e00be122068e5810c}
+
+
+Win\+Game affiche la fenêtre \char`\"{}\+Y\+O\+U W\+I\+N\char`\"{} lorsque le joueur a gagné 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Pseudo\mbox{[}in\mbox{]}} & Pseudo du joueur entré au début du jeu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 159 of file display.\+cpp.
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_a2136d186fc0e7a3e00be122068e5810c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{display_8h_a2136d186fc0e7a3e00be122068e5810c_icgraph}
+\end{center}
+\end{figure}
+
+

@@ -1,0 +1,10 @@
+<map id="CheckGrid" name="CheckGrid">
+<area shape="rect" id="node2" href="$gamemods_8h.html#a4735fa2a3f1f10abe10b610510680b3c" title="GAME_ClassicMod permet de jouer en mode classique du jeu c&#39;est&#45;à&#45;dire qu&#39;il faut aligner au moins 3 c..." alt="" coords="137,91,275,117"/>
+<area shape="rect" id="node5" href="$gamemods_8h.html#afb4190e75f694b88fc919cb938bb9d6d" title="GAME_DiagonalMod permet de jouer en mode diagonal du jeu c&#39;est&#45;à&#45;dire qu&#39;il faut aligner au moins 3 c..." alt="" coords="599,91,743,117"/>
+<area shape="rect" id="node3" href="$display_8h.html#ae89e5a96380a3c5e6d8c198020696084" title="ShowMenu affiche le menu de sélection du mode de jeu (choix entre CLASSIC, DIAGONAL, RULES) " alt="" coords="323,167,409,193"/>
+<area shape="rect" id="node4" href="$display_8h.html#ab77f0cd8eb631a2675c55cbb24bc4fee" title="GameOver affiche la fenêtre &quot;GAME OVER&quot; lorsque le joueur a perdu. " alt="" coords="461,40,547,67"/>
+<area shape="rect" id="node6" href="$display_8h.html#a2136d186fc0e7a3e00be122068e5810c" title="WinGame affiche la fenêtre &quot;YOU WIN&quot; lorsque le joueur a gagné " alt="" coords="464,91,544,117"/>
+<area shape="rect" id="node7" href="$display_8h.html#a5a4378a081a78a48ba12ec54a6a1a299" title="ShowRules affiche les régles des différents modes de jeu ainsi que les actions définies pour chaque t..." alt="" coords="459,192,549,219"/>
+<area shape="rect" id="node8" href="$display_8h.html#ad2f3df7bd5ff146b699003a5d7bdfd7c" title="Connexion affiche la page de connexion où le joueur se connecte avec son pseudo. " alt="" coords="462,243,546,269"/>
+<area shape="rect" id="node9" href="$display_8h.html#a8084e88f83b951438d2d556697b62260" title="ShowLevels affiche les différents niveaux disponibles pour chaque mode de jeu. " alt="" coords="457,293,551,320"/>
+</map>

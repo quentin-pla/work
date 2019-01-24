@@ -1,0 +1,123 @@
+\hypertarget{params2_8h}{\section{params2.\+h File Reference}
+\label{params2_8h}\index{params2.\+h@{params2.\+h}}
+}
+
+
+Changement de couleur des bords à chaque lancement du jeu.  
+
+
+{\ttfamily \#include $<$vector$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include $<$ctime$>$}\\*
+{\ttfamily \#include $<$iomanip$>$}\\*
+{\ttfamily \#include $<$fstream$>$}\\*
+{\ttfamily \#include $<$map$>$}\\*
+{\ttfamily \#include \char`\"{}canonic.\+h\char`\"{}}\\*
+Include dependency graph for params2.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{params2_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{params2_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{params2_8h_afdda3c83e2e6eafed967564161b6695f}{typedef vector$<$ unsigned $>$ {\bfseries C\+V\+Line}}\label{params2_8h_afdda3c83e2e6eafed967564161b6695f}
+
+\item 
+\hypertarget{params2_8h_a5cac0dda561d27322ab297c165118829}{typedef vector$<$ C\+V\+Line $>$ {\bfseries C\+Mat}}\label{params2_8h_a5cac0dda561d27322ab297c165118829}
+
+\item 
+\hypertarget{params2_8h_a8696de72f0b49aa203cdf15051f445e7}{typedef vector$<$ string $>$ {\bfseries C\+V\+Line\+Str}}\label{params2_8h_a8696de72f0b49aa203cdf15051f445e7}
+
+\item 
+\hypertarget{params2_8h_afedb01d64ea4ace1a5b31a4045d851f0}{typedef vector$<$ C\+V\+Line\+Str $>$ {\bfseries C\+Mat\+Str}}\label{params2_8h_afedb01d64ea4ace1a5b31a4045d851f0}
+
+\item 
+\hypertarget{params2_8h_a0a028f84cf0521f2c7ecf26d217e484e}{typedef pair$<$ unsigned, unsigned $>$ {\bfseries C\+Position}}\label{params2_8h_a0a028f84cf0521f2c7ecf26d217e484e}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{params2_8h_aaf5ed11c7cc6c455cbfcd947df86599b}{const int {\bfseries K\+Nb\+Candies} (7)}\label{params2_8h_aaf5ed11c7cc6c455cbfcd947df86599b}
+
+\item 
+\hypertarget{params2_8h_ac49c7ad483cec97cf5e7c013725c9519}{const int {\bfseries K\+Color} (40)}\label{params2_8h_ac49c7ad483cec97cf5e7c013725c9519}
+
+\item 
+\hypertarget{params2_8h_a045a97770d3c210037fee8131beb4b17}{const int {\bfseries K\+Impossible} (0)}\label{params2_8h_a045a97770d3c210037fee8131beb4b17}
+
+\item 
+\hypertarget{params2_8h_a6dec170bd985d490107f478c5d265caf}{const unsigned {\bfseries Window\+Size} (72)}\label{params2_8h_a6dec170bd985d490107f478c5d265caf}
+
+\item 
+\hypertarget{params2_8h_a86ad54fbb4e78426a1413d03a1b4a30f}{const unsigned {\bfseries Progress\+Bar\+Size} (20)}\label{params2_8h_a86ad54fbb4e78426a1413d03a1b4a30f}
+
+\item 
+\hypertarget{params2_8h_a8d447d7e7692729cad1fcae209f5e201}{const string {\bfseries Initial\+Colors} (\char`\"{}\textbackslash{}033\mbox{[}1;27;37;40m\char`\"{})}\label{params2_8h_a8d447d7e7692729cad1fcae209f5e201}
+
+\item 
+\hypertarget{params2_8h_a62d3d30dd3f29470e484666dcbb5b3d5}{const string {\bfseries Error\+Message} (\char`\"{}        Erreur, saisie invalide !\char`\"{})}\label{params2_8h_a62d3d30dd3f29470e484666dcbb5b3d5}
+
+\item 
+\hypertarget{params2_8h_a5b9b1b528179b06517431f1645651edb}{const string {\bfseries Leader\+Board\+C\+L\+A\+S\+S\+I\+C} (\char`\"{}../M1103-\/Projet\+Number\+Crush/Nos\+\_\+fichiers/leaderboard\+C\+L\+A\+S\+S\+I\+C.\+txt\char`\"{})}\label{params2_8h_a5b9b1b528179b06517431f1645651edb}
+
+\item 
+\hypertarget{params2_8h_a09766e0e75c4d2a42800c0f432cf0ece}{const string {\bfseries Leader\+Board\+D\+I\+A\+G\+O\+N\+A\+L} (\char`\"{}../M1103-\/Projet\+Number\+Crush/Nos\+\_\+fichiers/leaderboard\+D\+I\+A\+G\+O\+N\+A\+L.\+txt\char`\"{})}\label{params2_8h_a09766e0e75c4d2a42800c0f432cf0ece}
+
+\item 
+string \hyperlink{params2_8h_a9797f22a720ee6dc33e65e86bc03b22f}{Const\+Border\+Color} ()
+\begin{DoxyCompactList}\small\item\em Const\+Border\+Color génère une couleur de bordure du jeu aléatoire lorsqu'on lance le jeu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{params2_8h_ae35f79233cd3b2a58609b2b4ca2f67a5}{const string {\bfseries Border\+Color} = \hyperlink{params2_8h_a9797f22a720ee6dc33e65e86bc03b22f}{Const\+Border\+Color}()}\label{params2_8h_ae35f79233cd3b2a58609b2b4ca2f67a5}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Changement de couleur des bords à chaque lancement du jeu. 
+
+\begin{DoxyAuthor}{Author}
+Quentin Pla, Léo Vincent, Emma tarfi, Sirine Achache, Julien Vavrille
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+26 janvier 2018 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{params2_8h_source}{params2.\+h}.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{params2_8h_a9797f22a720ee6dc33e65e86bc03b22f}{\index{params2.\+h@{params2.\+h}!Const\+Border\+Color@{Const\+Border\+Color}}
+\index{Const\+Border\+Color@{Const\+Border\+Color}!params2.\+h@{params2.\+h}}
+\subsubsection[{Const\+Border\+Color}]{\setlength{\rightskip}{0pt plus 5cm}string Const\+Border\+Color (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{params2_8h_a9797f22a720ee6dc33e65e86bc03b22f}
+
+
+Const\+Border\+Color génère une couleur de bordure du jeu aléatoire lorsqu'on lance le jeu. 
+
+\begin{DoxyReturn}{Returns}
+retourne la couleur des bordures générées aléatoirement 
+\end{DoxyReturn}
+
+
+Definition at line 6 of file params2.\+cpp.
+

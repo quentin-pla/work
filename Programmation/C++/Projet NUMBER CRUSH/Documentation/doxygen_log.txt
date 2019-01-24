@@ -1,0 +1,870 @@
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for files to exclude
+Searching for files to process...
+Searching for files in directory /home/p17002028/Documents/M1103-ProjetNumberCrush
+Searching for files in directory /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof
+Searching for files in directory /home/p17002028/Documents/M1103-ProjetNumberCrush/Doc
+Searching for files in directory /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers
+Reading and parsing tag files
+Parsing files
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/game.cpp...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/game.cpp...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/game.h...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/game.h...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/gridmanagement.cpp...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/gridmanagement.cpp...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/gridmanagement.h...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/gridmanagement.h...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/nsutil.cpp...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/nsutil.cpp...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/nsutil.h...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/nsutil.h...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/params.h...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/params.h...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/type.h...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/type.h...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/main.cpp...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/main.cpp...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/canonic.cpp...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/canonic.cpp...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/canonic.h...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/canonic.h...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.cpp...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.cpp...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/game.h...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/game.h...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/gamemods.cpp...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/gamemods.cpp...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/gamemods.h...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/gamemods.h...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.cpp...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.cpp...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.cpp...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.cpp...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.cpp...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.cpp...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h...
+Preprocessing /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/type.h...
+Parsing file /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/type.h...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Associating documentation with classes...
+Computing nesting relations for classes...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Creating members for template instances...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:96: warning: documented symbol `void emovalInRow' was not declared or defined.
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Freeing entry tree
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Computing dependencies between directories...
+Generating citations page...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating code for file canonic.cpp...
+Generating code for file canonic.h...
+Generating code for file display.cpp...
+Generating code for file display.h...
+Generating code for file game.cpp...
+Generating code for file game.h...
+Generating code for file game.h...
+Generating code for file gamemods.cpp...
+Generating code for file gamemods.h...
+Generating code for file gridmanagement.cpp...
+Generating code for file gridmanagement.h...
+Generating code for file ingame.cpp...
+Generating code for file ingame.h...
+Generating code for file init.cpp...
+Generating code for file init.h...
+Generating code for file main.cpp...
+Generating code for file nsutil.cpp...
+Generating code for file nsutil.h...
+Generating code for file params.h...
+Generating code for file params2.cpp...
+Generating code for file params2.h...
+Generating code for file type.h...
+Generating code for file type.h...
+Generating file documentation...
+Generating docs for file canonic.h...
+Generating docs for file display.h...
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:32: warning: argument 'in' of command @param is not found in the argument list of DisplayHelpLines(const CMat &Grid)
+Generating caller graph for function DisplayHelpLines
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:54: warning: argument 'in' of command @param is not found in the argument list of DisplayLeaderBoard(const int &PlayerPos, const CMatStr &LeaderBoard, int &LevelChoice)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:54: warning: argument 'in' of command @param is not found in the argument list of DisplayLeaderBoard(const int &PlayerPos, const CMatStr &LeaderBoard, int &LevelChoice)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:54: warning: argument 'in' of command @param is not found in the argument list of DisplayLeaderBoard(const int &PlayerPos, const CMatStr &LeaderBoard, int &LevelChoice)
+Generating caller graph for function DisplayLeaderBoard
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:71: warning: argument 'in' of command @param is not found in the argument list of DisplayProgressBar(int &ScoreForNextLvl, int &Score)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:71: warning: argument 'in' of command @param is not found in the argument list of DisplayProgressBar(int &ScoreForNextLvl, int &Score)
+Generating call graph for function DisplayProgressBar
+Generating caller graph for function DisplayProgressBar
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:46: warning: argument 'in' of command @param is not found in the argument list of DisplayRemainingHits(int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:46: warning: argument 'in' of command @param is not found in the argument list of DisplayRemainingHits(int &MaximalHits, int &Hits)
+Generating caller graph for function DisplayRemainingHits
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:39: warning: argument 'in' of command @param is not found in the argument list of DisplayScore(int &Score)
+Generating caller graph for function DisplayScore
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:63: warning: argument 'in' of command @param is not found in the argument list of DisplayStars(int &ScoreForNextLvl, int &Score)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:63: warning: argument 'in' of command @param is not found in the argument list of DisplayStars(int &ScoreForNextLvl, int &Score)
+Generating call graph for function DisplayStars
+Generating caller graph for function DisplayStars
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:85: warning: argument 'in' of command @param is not found in the argument list of DisplayWindow(const CMat &Grid, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:85: warning: argument 'in' of command @param is not found in the argument list of DisplayWindow(const CMat &Grid, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:85: warning: argument 'in' of command @param is not found in the argument list of DisplayWindow(const CMat &Grid, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:85: warning: argument 'in' of command @param is not found in the argument list of DisplayWindow(const CMat &Grid, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:85: warning: argument 'in' of command @param is not found in the argument list of DisplayWindow(const CMat &Grid, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:85: warning: argument 'in' of command @param is not found in the argument list of DisplayWindow(const CMat &Grid, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:85: warning: argument 'in' of command @param is not found in the argument list of DisplayWindow(const CMat &Grid, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+Generating call graph for function DisplayWindow
+Generating caller graph for function DisplayWindow
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:25: warning: argument 'in' of command @param is not found in the argument list of DisplayWindowBorders(unsigned Repeat)
+Generating caller graph for function DisplayWindowBorders
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:98: warning: argument 'in' of command @param is not found in the argument list of GameOver(const string &Pseudo)
+Generating call graph for function GameOver
+Generating caller graph for function GameOver
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:132: warning: argument 'in' of command @param is not found in the argument list of ShowLevels(CMat &Grid, int &ScoreForNextLvl, int &LevelChoice, int &MaximalHits, const string &Pseudo)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:132: warning: argument 'in' of command @param is not found in the argument list of ShowLevels(CMat &Grid, int &ScoreForNextLvl, int &LevelChoice, int &MaximalHits, const string &Pseudo)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:132: warning: argument 'out' of command @param is not found in the argument list of ShowLevels(CMat &Grid, int &ScoreForNextLvl, int &LevelChoice, int &MaximalHits, const string &Pseudo)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:132: warning: argument 'in' of command @param is not found in the argument list of ShowLevels(CMat &Grid, int &ScoreForNextLvl, int &LevelChoice, int &MaximalHits, const string &Pseudo)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:132: warning: argument 'out' of command @param is not found in the argument list of ShowLevels(CMat &Grid, int &ScoreForNextLvl, int &LevelChoice, int &MaximalHits, const string &Pseudo)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:132: warning: argument 'in' of command @param is not found in the argument list of ShowLevels(CMat &Grid, int &ScoreForNextLvl, int &LevelChoice, int &MaximalHits, const string &Pseudo)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:132: warning: argument 'out' of command @param is not found in the argument list of ShowLevels(CMat &Grid, int &ScoreForNextLvl, int &LevelChoice, int &MaximalHits, const string &Pseudo)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:132: warning: argument 'in' of command @param is not found in the argument list of ShowLevels(CMat &Grid, int &ScoreForNextLvl, int &LevelChoice, int &MaximalHits, const string &Pseudo)
+Generating call graph for function ShowLevels
+Generating caller graph for function ShowLevels
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:112: warning: argument 'in' of command @param is not found in the argument list of ShowMenu(const string &Pseudo)
+Generating call graph for function ShowMenu
+Generating caller graph for function ShowMenu
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:119: warning: argument 'in' of command @param is not found in the argument list of ShowRules(const string &Pseudo)
+Generating call graph for function ShowRules
+Generating caller graph for function ShowRules
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/display.h:105: warning: argument 'in' of command @param is not found in the argument list of WinGame(const string &Pseudo)
+Generating call graph for function WinGame
+Generating caller graph for function WinGame
+Generating docs for file gamemods.h...
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/gamemods.h:19: warning: argument 'in' of command @param is not found in the argument list of GAME_ClassicMod(int &GameChoice, const string &Pseudo)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/gamemods.h:19: warning: argument 'in' of command @param is not found in the argument list of GAME_ClassicMod(int &GameChoice, const string &Pseudo)
+Generating call graph for function GAME_ClassicMod
+Generating caller graph for function GAME_ClassicMod
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/gamemods.h:27: warning: argument 'in' of command @param is not found in the argument list of GAME_DiagonalMod(int &GameChoice, const string &Pseudo)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/gamemods.h:27: warning: argument 'in' of command @param is not found in the argument list of GAME_DiagonalMod(int &GameChoice, const string &Pseudo)
+Generating call graph for function GAME_DiagonalMod
+Generating caller graph for function GAME_DiagonalMod
+Generating docs for file ingame.h...
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:102: warning: Member RemovalInRow(CMat &Grid, const CPosition &Pos, unsigned &HowMany) (function) of file ingame.h is not documented.
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:126: warning: argument 'in' of command @param is not found in the argument list of AtLeastThreeInAColumn(const CMat &Grid, CPosition &Pos, unsigned &HowMany, unsigned &SavedNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:126: warning: argument 'in' of command @param is not found in the argument list of AtLeastThreeInAColumn(const CMat &Grid, CPosition &Pos, unsigned &HowMany, unsigned &SavedNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:126: warning: argument 'out' of command @param is not found in the argument list of AtLeastThreeInAColumn(const CMat &Grid, CPosition &Pos, unsigned &HowMany, unsigned &SavedNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:126: warning: argument 'in' of command @param is not found in the argument list of AtLeastThreeInAColumn(const CMat &Grid, CPosition &Pos, unsigned &HowMany, unsigned &SavedNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:126: warning: argument 'out' of command @param is not found in the argument list of AtLeastThreeInAColumn(const CMat &Grid, CPosition &Pos, unsigned &HowMany, unsigned &SavedNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:126: warning: argument 'in' of command @param is not found in the argument list of AtLeastThreeInAColumn(const CMat &Grid, CPosition &Pos, unsigned &HowMany, unsigned &SavedNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:126: warning: argument 'out' of command @param is not found in the argument list of AtLeastThreeInAColumn(const CMat &Grid, CPosition &Pos, unsigned &HowMany, unsigned &SavedNumber)
+Generating caller graph for function AtLeastThreeInAColumn
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:68: warning: argument 'in' of command @param is not found in the argument list of AtLeastThreeInADiagonalNordEst(const CMat &Grid, CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:68: warning: argument 'in' of command @param is not found in the argument list of AtLeastThreeInADiagonalNordEst(const CMat &Grid, CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:68: warning: argument 'out' of command @param is not found in the argument list of AtLeastThreeInADiagonalNordEst(const CMat &Grid, CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:68: warning: argument 'in' of command @param is not found in the argument list of AtLeastThreeInADiagonalNordEst(const CMat &Grid, CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:68: warning: argument 'out' of command @param is not found in the argument list of AtLeastThreeInADiagonalNordEst(const CMat &Grid, CPosition &Pos, unsigned &HowMany)
+Generating caller graph for function AtLeastThreeInADiagonalNordEst
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:87: warning: argument 'in' of command @param is not found in the argument list of AtLeastThreeInADiagonalNordOuest(const CMat &Grid, CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:87: warning: argument 'in' of command @param is not found in the argument list of AtLeastThreeInADiagonalNordOuest(const CMat &Grid, CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:87: warning: argument 'out' of command @param is not found in the argument list of AtLeastThreeInADiagonalNordOuest(const CMat &Grid, CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:87: warning: argument 'in' of command @param is not found in the argument list of AtLeastThreeInADiagonalNordOuest(const CMat &Grid, CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:87: warning: argument 'out' of command @param is not found in the argument list of AtLeastThreeInADiagonalNordOuest(const CMat &Grid, CPosition &Pos, unsigned &HowMany)
+Generating caller graph for function AtLeastThreeInADiagonalNordOuest
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:106: warning: argument 'in' of command @param is not found in the argument list of AtLeastThreeInARow(CMat &Grid, CPosition &Pos, unsigned &HowMany, unsigned &SavedNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:106: warning: argument 'in' of command @param is not found in the argument list of AtLeastThreeInARow(CMat &Grid, CPosition &Pos, unsigned &HowMany, unsigned &SavedNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:106: warning: argument 'out' of command @param is not found in the argument list of AtLeastThreeInARow(CMat &Grid, CPosition &Pos, unsigned &HowMany, unsigned &SavedNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:106: warning: argument 'in' of command @param is not found in the argument list of AtLeastThreeInARow(CMat &Grid, CPosition &Pos, unsigned &HowMany, unsigned &SavedNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:106: warning: argument 'out' of command @param is not found in the argument list of AtLeastThreeInARow(CMat &Grid, CPosition &Pos, unsigned &HowMany, unsigned &SavedNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:106: warning: argument 'in' of command @param is not found in the argument list of AtLeastThreeInARow(CMat &Grid, CPosition &Pos, unsigned &HowMany, unsigned &SavedNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:106: warning: argument 'out' of command @param is not found in the argument list of AtLeastThreeInARow(CMat &Grid, CPosition &Pos, unsigned &HowMany, unsigned &SavedNumber)
+Generating caller graph for function AtLeastThreeInARow
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:174: warning: argument 'in' of command @param is not found in the argument list of CalcPercentage(int &ScoreForNextLvl, int &Score)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:174: warning: argument 'in' of command @param is not found in the argument list of CalcPercentage(int &ScoreForNextLvl, int &Score)
+Generating caller graph for function CalcPercentage
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:163: warning: argument 'in' of command @param is not found in the argument list of CheckNewRecord(CMatStr &LeaderBoard, int &Score, int &GameChoice, int &LevelChoice, const string &Pseudo)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:163: warning: argument 'out' of command @param is not found in the argument list of CheckNewRecord(CMatStr &LeaderBoard, int &Score, int &GameChoice, int &LevelChoice, const string &Pseudo)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:163: warning: argument 'in' of command @param is not found in the argument list of CheckNewRecord(CMatStr &LeaderBoard, int &Score, int &GameChoice, int &LevelChoice, const string &Pseudo)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:163: warning: argument 'in' of command @param is not found in the argument list of CheckNewRecord(CMatStr &LeaderBoard, int &Score, int &GameChoice, int &LevelChoice, const string &Pseudo)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:163: warning: argument 'in' of command @param is not found in the argument list of CheckNewRecord(CMatStr &LeaderBoard, int &Score, int &GameChoice, int &LevelChoice, const string &Pseudo)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:163: warning: argument 'in' of command @param is not found in the argument list of CheckNewRecord(CMatStr &LeaderBoard, int &Score, int &GameChoice, int &LevelChoice, const string &Pseudo)
+Generating caller graph for function CheckNewRecord
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:152: warning: argument 'in' of command @param is not found in the argument list of GameStats(int &ScoreForNextLvl, int &Score, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:152: warning: argument 'in' of command @param is not found in the argument list of GameStats(int &ScoreForNextLvl, int &Score, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:152: warning: argument 'in' of command @param is not found in the argument list of GameStats(int &ScoreForNextLvl, int &Score, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:152: warning: argument 'in' of command @param is not found in the argument list of GameStats(int &ScoreForNextLvl, int &Score, int &MaximalHits, int &Hits)
+Generating call graph for function GameStats
+Generating caller graph for function GameStats
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:43: warning: argument 'in' of command @param is not found in the argument list of MakeAMove(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:43: warning: argument 'in' of command @param is not found in the argument list of MakeAMove(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:43: warning: argument 'in' of command @param is not found in the argument list of MakeAMove(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:43: warning: argument 'in' of command @param is not found in the argument list of MakeAMove(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:43: warning: argument 'out' of command @param is not found in the argument list of MakeAMove(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:43: warning: argument 'in' of command @param is not found in the argument list of MakeAMove(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:43: warning: argument 'in' of command @param is not found in the argument list of MakeAMove(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:43: warning: argument 'in' of command @param is not found in the argument list of MakeAMove(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:43: warning: argument 'in' of command @param is not found in the argument list of MakeAMove(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:43: warning: argument 'in' of command @param is not found in the argument list of MakeAMove(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:43: warning: argument 'in' of command @param is not found in the argument list of MakeAMove(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+Generating call graph for function MakeAMove
+Generating caller graph for function MakeAMove
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:117: warning: argument 'in' of command @param is not found in the argument list of RemovalInColumn(CMat &Grid, const CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:117: warning: argument 'out' of command @param is not found in the argument list of RemovalInColumn(CMat &Grid, const CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:117: warning: argument 'in' of command @param is not found in the argument list of RemovalInColumn(CMat &Grid, const CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:117: warning: argument 'in' of command @param is not found in the argument list of RemovalInColumn(CMat &Grid, const CPosition &Pos, unsigned &HowMany)
+Generating caller graph for function RemovalInColumn
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:59: warning: argument 'in' of command @param is not found in the argument list of RemovalInDiagonalNordEst(CMat &Grid, const CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:59: warning: argument 'out' of command @param is not found in the argument list of RemovalInDiagonalNordEst(CMat &Grid, const CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:59: warning: argument 'in' of command @param is not found in the argument list of RemovalInDiagonalNordEst(CMat &Grid, const CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:59: warning: argument 'in' of command @param is not found in the argument list of RemovalInDiagonalNordEst(CMat &Grid, const CPosition &Pos, unsigned &HowMany)
+Generating caller graph for function RemovalInDiagonalNordEst
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:78: warning: argument 'in' of command @param is not found in the argument list of RemovalInDiagonalNordOuest(CMat &Grid, const CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:78: warning: argument 'out' of command @param is not found in the argument list of RemovalInDiagonalNordOuest(CMat &Grid, const CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:78: warning: argument 'in' of command @param is not found in the argument list of RemovalInDiagonalNordOuest(CMat &Grid, const CPosition &Pos, unsigned &HowMany)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:78: warning: argument 'in' of command @param is not found in the argument list of RemovalInDiagonalNordOuest(CMat &Grid, const CPosition &Pos, unsigned &HowMany)
+Generating caller graph for function RemovalInDiagonalNordOuest
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:137: warning: argument 'in' of command @param is not found in the argument list of ReplaceKImpossibleNumbers(CMat &Grid)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:137: warning: argument 'out' of command @param is not found in the argument list of ReplaceKImpossibleNumbers(CMat &Grid)
+Generating caller graph for function ReplaceKImpossibleNumbers
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:33: warning: argument 'in' of command @param is not found in the argument list of SetDirection(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:33: warning: argument 'in' of command @param is not found in the argument list of SetDirection(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:33: warning: argument 'in' of command @param is not found in the argument list of SetDirection(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:33: warning: argument 'out' of command @param is not found in the argument list of SetDirection(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:33: warning: argument 'in' of command @param is not found in the argument list of SetDirection(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:33: warning: argument 'out' of command @param is not found in the argument list of SetDirection(CMat &Grid, CPosition &Pos, char &Direction, bool &NextNumber)
+Generating call graph for function SetDirection
+Generating caller graph for function SetDirection
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:19: warning: argument 'in' of command @param is not found in the argument list of SetPos(CPosition &Pos, const CMat &Grid, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:19: warning: argument 'out' of command @param is not found in the argument list of SetPos(CPosition &Pos, const CMat &Grid, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:19: warning: argument 'in' of command @param is not found in the argument list of SetPos(CPosition &Pos, const CMat &Grid, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:19: warning: argument 'in' of command @param is not found in the argument list of SetPos(CPosition &Pos, const CMat &Grid, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:19: warning: argument 'in' of command @param is not found in the argument list of SetPos(CPosition &Pos, const CMat &Grid, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:19: warning: argument 'in' of command @param is not found in the argument list of SetPos(CPosition &Pos, const CMat &Grid, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:19: warning: argument 'in' of command @param is not found in the argument list of SetPos(CPosition &Pos, const CMat &Grid, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:19: warning: argument 'in' of command @param is not found in the argument list of SetPos(CPosition &Pos, const CMat &Grid, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:19: warning: argument 'in' of command @param is not found in the argument list of SetPos(CPosition &Pos, const CMat &Grid, const CMatStr &LeaderBoard, int &ScoreForNextLvl, int &Score, int &LevelChoice, int &MaximalHits, int &Hits)
+Generating call graph for function SetPos
+Generating caller graph for function SetPos
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:144: warning: argument 'in' of command @param is not found in the argument list of UpdateScore(const unsigned &HowMany, int &Score)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:144: warning: argument 'in' of command @param is not found in the argument list of UpdateScore(const unsigned &HowMany, int &Score)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/ingame.h:144: warning: argument 'out' of command @param is not found in the argument list of UpdateScore(const unsigned &HowMany, int &Score)
+Generating caller graph for function UpdateScore
+Generating docs for file init.h...
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:46: warning: argument 'in' of command @param is not found in the argument list of CheckGrid(CMat &Grid)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:46: warning: argument 'out' of command @param is not found in the argument list of CheckGrid(CMat &Grid)
+Generating caller graph for function CheckGrid
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:53: warning: argument 'in' of command @param is not found in the argument list of Couleur(const string &coul)
+Generating caller graph for function Couleur
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:29: warning: argument 'in' of command @param is not found in the argument list of InitGrid2(CMat &Grid, const unsigned &Size)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:29: warning: argument 'out' of command @param is not found in the argument list of InitGrid2(CMat &Grid, const unsigned &Size)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:29: warning: argument 'in' of command @param is not found in the argument list of InitGrid2(CMat &Grid, const unsigned &Size)
+Generating caller graph for function InitGrid2
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:37: warning: argument 'in' of command @param is not found in the argument list of InitLeaderBoard(ifstream &ifs, CMatStr &LeaderBoard, int &GameChoice)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:37: warning: argument 'in' of command @param is not found in the argument list of InitLeaderBoard(ifstream &ifs, CMatStr &LeaderBoard, int &GameChoice)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:37: warning: argument 'out' of command @param is not found in the argument list of InitLeaderBoard(ifstream &ifs, CMatStr &LeaderBoard, int &GameChoice)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:37: warning: argument 'in' of command @param is not found in the argument list of InitLeaderBoard(ifstream &ifs, CMatStr &LeaderBoard, int &GameChoice)
+Generating caller graph for function InitLeaderBoard
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:19: warning: argument 'in' of command @param is not found in the argument list of ResetData(int &Score, int &GameChoice, int &LevelChoice, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:19: warning: argument 'out' of command @param is not found in the argument list of ResetData(int &Score, int &GameChoice, int &LevelChoice, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:19: warning: argument 'in' of command @param is not found in the argument list of ResetData(int &Score, int &GameChoice, int &LevelChoice, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:19: warning: argument 'out' of command @param is not found in the argument list of ResetData(int &Score, int &GameChoice, int &LevelChoice, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:19: warning: argument 'in' of command @param is not found in the argument list of ResetData(int &Score, int &GameChoice, int &LevelChoice, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:19: warning: argument 'out' of command @param is not found in the argument list of ResetData(int &Score, int &GameChoice, int &LevelChoice, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:19: warning: argument 'in' of command @param is not found in the argument list of ResetData(int &Score, int &GameChoice, int &LevelChoice, int &Hits)
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/init.h:19: warning: argument 'out' of command @param is not found in the argument list of ResetData(int &Score, int &GameChoice, int &LevelChoice, int &Hits)
+Generating caller graph for function ResetData
+Generating docs for file params2.h...
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h:25: warning: Member CVLine (typedef) of file params2.h is not documented.
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h:26: warning: Member CMat (typedef) of file params2.h is not documented.
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h:27: warning: Member CVLineStr (typedef) of file params2.h is not documented.
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h:28: warning: Member CMatStr (typedef) of file params2.h is not documented.
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h:29: warning: Member CPosition (typedef) of file params2.h is not documented.
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h:30: warning: Member KNbCandies(7) (function) of file params2.h is not documented.
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h:31: warning: Member KColor(40) (function) of file params2.h is not documented.
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h:32: warning: Member KImpossible(0) (function) of file params2.h is not documented.
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h:33: warning: Member WindowSize(72) (function) of file params2.h is not documented.
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h:34: warning: Member ProgressBarSize(20) (function) of file params2.h is not documented.
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h:35: warning: Member InitialColors("\033[1;27;37;40m") (function) of file params2.h is not documented.
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h:36: warning: Member ErrorMessage("        Erreur, saisie invalide !") (function) of file params2.h is not documented.
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h:37: warning: Member LeaderBoardCLASSIC("../M1103-ProjetNumberCrush/Nos_fichiers/leaderboardCLASSIC.txt") (function) of file params2.h is not documented.
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h:38: warning: Member LeaderBoardDIAGONAL("../M1103-ProjetNumberCrush/Nos_fichiers/leaderboardDIAGONAL.txt") (function) of file params2.h is not documented.
+/home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/params2.h:47: warning: Member BorderColor (variable) of file params2.h is not documented.
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating namespace index...
+Generating graph info page...
+Generating directory documentation...
+Generating dependency graph for directory Correc_prof
+Generating dependency graph for directory Nos_fichiers
+Generating index page...
+Generating page index...
+Generating module index...
+Generating namespace index...
+Generating namespace member index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating graphical class hierarchy...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+Generating SQLITE3 output...
+Initializing DB schema...
+Generating Sqlite3 output for namespace std
+Generating Sqlite3 output for file canonic.cpp
+unable to read file loc from[set_input_mode]
+unable to read file loc from[reset_input_mode]
+unable to read file loc from[ShowLevels]
+unable to read file loc from[SetPos]
+unable to read file loc from[Connexion]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[SetDirection]
+unable to read file loc from[ShowRules]
+Generating Sqlite3 output for file canonic.h
+unable to read file loc from[set_input_mode]
+unable to read file loc from[reset_input_mode]
+unable to read file loc from[ShowLevels]
+unable to read file loc from[SetPos]
+unable to read file loc from[Connexion]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[SetDirection]
+unable to read file loc from[ShowRules]
+Generating Sqlite3 output for file display.cpp
+unable to read file loc from[ShowLevels]
+unable to read file loc from[GameOver]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[Connexion]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[WinGame]
+unable to read file loc from[ShowRules]
+unable to read file loc from[ShowLevels]
+unable to read file loc from[GameOver]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[Connexion]
+unable to read file loc from[DisplayHeader]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[WinGame]
+unable to read file loc from[ShowRules]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[CalcPercentage]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[CalcPercentage]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[DisplayWindowBorders]
+unable to read file loc from[ShowLevels]
+unable to read file loc from[GameOver]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[Connexion]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[WinGame]
+unable to read file loc from[ShowRules]
+unable to read file loc from[DisplayHelpLines]
+unable to read file loc from[DisplayLeaderBoard]
+unable to read file loc from[DisplayRemainingHits]
+unable to read file loc from[Couleur]
+unable to read file loc from[DisplayHeader]
+unable to read file loc from[ClearScreen2]
+unable to read file loc from[DisplayStars]
+unable to read file loc from[DisplayScore]
+unable to read file loc from[DisplayProgressBar]
+unable to read file loc from[DisplayWindowBorders]
+unable to read file loc from[SetPos]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[DisplayHeader]
+unable to read file loc from[ClearScreen2]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[DisplayWindowBorders]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[DisplayHeader]
+unable to read file loc from[ClearScreen2]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[DisplayWindowBorders]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[DisplayHeader]
+unable to read file loc from[set_input_mode]
+unable to read file loc from[ClearScreen2]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[DisplayWindowBorders]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[DisplayHeader]
+unable to read file loc from[set_input_mode]
+unable to read file loc from[ClearScreen2]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[ShowRules]
+unable to read file loc from[DisplayWindowBorders]
+unable to read file loc from[ShowLevels]
+unable to read file loc from[GameOver]
+unable to read file loc from[Connexion]
+unable to read file loc from[WinGame]
+unable to read file loc from[ShowRules]
+unable to read file loc from[DisplayHeader]
+unable to read file loc from[set_input_mode]
+unable to read file loc from[ClearScreen2]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[DisplayWindowBorders]
+unable to read file loc from[DisplayHeader]
+unable to read file loc from[set_input_mode]
+unable to read file loc from[ClearScreen2]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[DisplayWindowBorders]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+Generating Sqlite3 output for file display.h
+unable to read file loc from[ShowLevels]
+unable to read file loc from[GameOver]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[Connexion]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[WinGame]
+unable to read file loc from[ShowRules]
+unable to read file loc from[ShowLevels]
+unable to read file loc from[GameOver]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[Connexion]
+unable to read file loc from[DisplayHeader]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[WinGame]
+unable to read file loc from[ShowRules]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[CalcPercentage]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[CalcPercentage]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[DisplayWindowBorders]
+unable to read file loc from[ShowLevels]
+unable to read file loc from[GameOver]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[Connexion]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[WinGame]
+unable to read file loc from[ShowRules]
+unable to read file loc from[DisplayHelpLines]
+unable to read file loc from[DisplayLeaderBoard]
+unable to read file loc from[DisplayRemainingHits]
+unable to read file loc from[Couleur]
+unable to read file loc from[DisplayHeader]
+unable to read file loc from[ClearScreen2]
+unable to read file loc from[DisplayStars]
+unable to read file loc from[DisplayScore]
+unable to read file loc from[DisplayProgressBar]
+unable to read file loc from[DisplayWindowBorders]
+unable to read file loc from[SetPos]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[DisplayHeader]
+unable to read file loc from[ClearScreen2]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[DisplayWindowBorders]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[DisplayHeader]
+unable to read file loc from[ClearScreen2]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[DisplayWindowBorders]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[DisplayHeader]
+unable to read file loc from[set_input_mode]
+unable to read file loc from[ClearScreen2]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[ShowRules]
+unable to read file loc from[DisplayWindowBorders]
+unable to read file loc from[ShowLevels]
+unable to read file loc from[GameOver]
+unable to read file loc from[Connexion]
+unable to read file loc from[WinGame]
+unable to read file loc from[ShowRules]
+unable to read file loc from[DisplayHeader]
+unable to read file loc from[set_input_mode]
+unable to read file loc from[ClearScreen2]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[DisplayWindowBorders]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[DisplayHeader]
+unable to read file loc from[set_input_mode]
+unable to read file loc from[ClearScreen2]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[DisplayWindowBorders]
+unable to read file loc from[DisplayHeader]
+unable to read file loc from[set_input_mode]
+unable to read file loc from[ClearScreen2]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[DisplayWindowBorders]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+Generating Sqlite3 output for file game.cpp
+Generating Sqlite3 output for file Correc_prof/game.h
+Generating Sqlite3 output for file Nos_fichiers/game.h
+Generating Sqlite3 output for file gamemods.cpp
+unable to read file loc from[AtLeastThreeInAColumn]
+unable to read file loc from[ShowLevels]
+unable to read file loc from[GameOver]
+unable to read file loc from[UpdateScore]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[ResetData]
+unable to read file loc from[CheckNewRecord]
+unable to read file loc from[InitGrid2]
+unable to read file loc from[InitLeaderBoard]
+unable to read file loc from[WinGame]
+unable to read file loc from[RemovalInColumn]
+unable to read file loc from[GameStats]
+unable to read file loc from[CheckGrid]
+unable to read file loc from[ReplaceKImpossibleNumbers]
+unable to read file loc from[AtLeastThreeInARow]
+unable to read file loc from[MakeAMove]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[ShowLevels]
+unable to read file loc from[GameOver]
+unable to read file loc from[RemovalInDiagonalNordOuest]
+unable to read file loc from[UpdateScore]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[ResetData]
+unable to read file loc from[CheckNewRecord]
+unable to read file loc from[RemovalInDiagonalNordEst]
+unable to read file loc from[InitGrid2]
+unable to read file loc from[AtLeastThreeInADiagonalNordOuest]
+unable to read file loc from[AtLeastThreeInADiagonalNordEst]
+unable to read file loc from[InitLeaderBoard]
+unable to read file loc from[WinGame]
+unable to read file loc from[GameStats]
+unable to read file loc from[CheckGrid]
+unable to read file loc from[ReplaceKImpossibleNumbers]
+unable to read file loc from[MakeAMove]
+unable to read file loc from[ShowMenu]
+Generating Sqlite3 output for file gamemods.h
+unable to read file loc from[AtLeastThreeInAColumn]
+unable to read file loc from[ShowLevels]
+unable to read file loc from[GameOver]
+unable to read file loc from[UpdateScore]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[ResetData]
+unable to read file loc from[CheckNewRecord]
+unable to read file loc from[InitGrid2]
+unable to read file loc from[InitLeaderBoard]
+unable to read file loc from[WinGame]
+unable to read file loc from[RemovalInColumn]
+unable to read file loc from[GameStats]
+unable to read file loc from[CheckGrid]
+unable to read file loc from[ReplaceKImpossibleNumbers]
+unable to read file loc from[AtLeastThreeInARow]
+unable to read file loc from[MakeAMove]
+unable to read file loc from[ShowMenu]
+unable to read file loc from[ShowLevels]
+unable to read file loc from[GameOver]
+unable to read file loc from[RemovalInDiagonalNordOuest]
+unable to read file loc from[UpdateScore]
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[ResetData]
+unable to read file loc from[CheckNewRecord]
+unable to read file loc from[RemovalInDiagonalNordEst]
+unable to read file loc from[InitGrid2]
+unable to read file loc from[AtLeastThreeInADiagonalNordOuest]
+unable to read file loc from[AtLeastThreeInADiagonalNordEst]
+unable to read file loc from[InitLeaderBoard]
+unable to read file loc from[WinGame]
+unable to read file loc from[GameStats]
+unable to read file loc from[CheckGrid]
+unable to read file loc from[ReplaceKImpossibleNumbers]
+unable to read file loc from[MakeAMove]
+unable to read file loc from[ShowMenu]
+Generating Sqlite3 output for file gridmanagement.cpp
+Generating Sqlite3 output for file gridmanagement.h
+Generating Sqlite3 output for file ingame.cpp
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[set_input_mode]
+unable to read file loc from[MakeAMove]
+unable to read file loc from[set_input_mode]
+unable to read file loc from[MakeAMove]
+unable to read file loc from[SetPos]
+unable to read file loc from[SetDirection]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[DisplayStars]
+unable to read file loc from[GameStats]
+unable to read file loc from[DisplayProgressBar]
+unable to read file loc from[CalcPercentage]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+Generating Sqlite3 output for file ingame.h
+unable to read file loc from[DisplayWindow]
+unable to read file loc from[set_input_mode]
+unable to read file loc from[MakeAMove]
+unable to read file loc from[set_input_mode]
+unable to read file loc from[MakeAMove]
+unable to read file loc from[SetPos]
+unable to read file loc from[SetDirection]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[CalcPercentage]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[DisplayStars]
+unable to read file loc from[GameStats]
+unable to read file loc from[DisplayProgressBar]
+Generating Sqlite3 output for file init.cpp
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[DisplayWindow]
+Generating Sqlite3 output for file init.h
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[GAME_DiagonalMod]
+unable to read file loc from[GAME_ClassicMod]
+unable to read file loc from[DisplayWindow]
+Generating Sqlite3 output for file main.cpp
+Generating Sqlite3 output for file nsutil.cpp
+Generating Sqlite3 output for file nsutil.h
+Generating Sqlite3 output for file params.h
+Generating Sqlite3 output for file params2.cpp
+Generating Sqlite3 output for file params2.h
+Generating Sqlite3 output for file Correc_prof/type.h
+Generating Sqlite3 output for file Nos_fichiers/type.h
+Generating Sqlite3 output for dir /home/p17002028/Documents/M1103-ProjetNumberCrush/Correc_prof/
+Generating Sqlite3 output for dir /home/p17002028/Documents/M1103-ProjetNumberCrush/Nos_fichiers/
+Running dot...
+Generating dot graphs using 5 parallel threads...
+Running dot for graph 1/127
+Running dot for graph 2/127
+Running dot for graph 3/127
+Running dot for graph 4/127
+Running dot for graph 5/127
+Running dot for graph 6/127
+Running dot for graph 7/127
+Running dot for graph 8/127
+Running dot for graph 9/127
+Running dot for graph 10/127
+Running dot for graph 11/127
+Running dot for graph 12/127
+Running dot for graph 13/127
+Running dot for graph 14/127
+Running dot for graph 15/127
+Running dot for graph 16/127
+Running dot for graph 17/127
+Running dot for graph 18/127
+Running dot for graph 19/127
+Running dot for graph 20/127
+Running dot for graph 21/127
+Running dot for graph 22/127
+Running dot for graph 23/127
+Running dot for graph 24/127
+Running dot for graph 25/127
+Running dot for graph 26/127
+Running dot for graph 27/127
+Running dot for graph 28/127
+Running dot for graph 29/127
+Running dot for graph 30/127
+Running dot for graph 31/127
+Running dot for graph 32/127
+Running dot for graph 33/127
+Running dot for graph 34/127
+Running dot for graph 35/127
+Running dot for graph 36/127
+Running dot for graph 37/127
+Running dot for graph 38/127
+Running dot for graph 39/127
+Running dot for graph 40/127
+Running dot for graph 41/127
+Running dot for graph 42/127
+Running dot for graph 43/127
+Running dot for graph 44/127
+Running dot for graph 45/127
+Running dot for graph 46/127
+Running dot for graph 47/127
+Running dot for graph 48/127
+Running dot for graph 49/127
+Running dot for graph 50/127
+Running dot for graph 51/127
+Running dot for graph 52/127
+Running dot for graph 53/127
+Running dot for graph 54/127
+Running dot for graph 55/127
+Running dot for graph 56/127
+Running dot for graph 57/127
+Running dot for graph 58/127
+Running dot for graph 59/127
+Running dot for graph 60/127
+Running dot for graph 61/127
+Running dot for graph 62/127
+Running dot for graph 63/127
+Running dot for graph 64/127
+Running dot for graph 65/127
+Running dot for graph 66/127
+Running dot for graph 67/127
+Running dot for graph 68/127
+Running dot for graph 69/127
+Running dot for graph 70/127
+Running dot for graph 71/127
+Running dot for graph 72/127
+Running dot for graph 73/127
+Running dot for graph 74/127
+Running dot for graph 75/127
+Running dot for graph 76/127
+Running dot for graph 77/127
+Running dot for graph 78/127
+Running dot for graph 79/127
+Running dot for graph 80/127
+Running dot for graph 81/127
+Running dot for graph 82/127
+Running dot for graph 83/127
+Running dot for graph 84/127
+Running dot for graph 85/127
+Running dot for graph 86/127
+Running dot for graph 87/127
+Running dot for graph 88/127
+Running dot for graph 89/127
+Running dot for graph 90/127
+Running dot for graph 91/127
+Running dot for graph 92/127
+Running dot for graph 93/127
+Running dot for graph 94/127
+Running dot for graph 95/127
+Running dot for graph 96/127
+Running dot for graph 97/127
+Running dot for graph 98/127
+Running dot for graph 99/127
+Running dot for graph 100/127
+Running dot for graph 101/127
+Running dot for graph 102/127
+Running dot for graph 103/127
+Running dot for graph 104/127
+Running dot for graph 105/127
+Running dot for graph 106/127
+Running dot for graph 107/127
+Running dot for graph 108/127
+Running dot for graph 109/127
+Running dot for graph 110/127
+Running dot for graph 111/127
+Running dot for graph 112/127
+Running dot for graph 113/127
+Running dot for graph 114/127
+Running dot for graph 115/127
+Running dot for graph 116/127
+Running dot for graph 117/127
+Running dot for graph 118/127
+Running dot for graph 119/127
+Running dot for graph 120/127
+Running dot for graph 121/127
+Running dot for graph 122/127
+Running dot for graph 123/127
+Running dot for graph 124/127
+Running dot for graph 125/127
+Running dot for graph 126/127
+Running dot for graph 127/127
+Patching output file 1/16
+Patching output file 2/16
+Patching output file 3/16
+Patching output file 4/16
+Patching output file 5/16
+Patching output file 6/16
+Patching output file 7/16
+Patching output file 8/16
+Patching output file 9/16
+Patching output file 10/16
+Patching output file 11/16
+Patching output file 12/16
+Patching output file 13/16
+Patching output file 14/16
+Patching output file 15/16
+Patching output file 16/16
+lookup cache used 155/65536 hits=899 misses=155
+finished...
+*** Doxygen has finished

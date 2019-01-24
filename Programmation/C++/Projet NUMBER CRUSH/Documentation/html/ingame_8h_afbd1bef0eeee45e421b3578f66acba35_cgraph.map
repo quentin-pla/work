@@ -1,0 +1,16 @@
+<map id="SetPos" name="SetPos">
+<area shape="rect" id="node2" href="$canonic_8h.html#a224cd3d46cfe5381606415ce3585b91f" title="set_input_mode permet le passage au mode non canonique " alt="" coords="119,107,233,133"/>
+<area shape="rect" id="node4" href="$display_8h.html#a985915bc685c3aa57c3b75c4720b071f" title="DisplayWindow affiche la grille et tout le reste de la fenêtre en appelant chaque fonctions indépenda..." alt="" coords="119,259,233,285"/>
+<area shape="rect" id="node3" href="$canonic_8h.html#af99d8c0775d8c342a142e2be8c2ea592" title="reset_input_mode permet le passage au mode canonique " alt="" coords="295,5,420,32"/>
+<area shape="rect" id="node5" href="$display_8h.html#aa9714056a06d1518bdc6306412206580" title="ClearScreen2 efface l&#39;écran. " alt="" coords="307,56,408,83"/>
+<area shape="rect" id="node6" href="$display_8h.html#a6c3c37c60f48772ed93ef51a142f0dc8" title="DisplayHeader affiche la partie haute de la fenêtre contenant &quot;NUMBER CRUSH&quot;. " alt="" coords="303,107,411,133"/>
+<area shape="rect" id="node7" href="$display_8h.html#a52d0ca86ff2a0ef127c0893799011754" title="DisplayWindowBorders affiche les bords de la fenêtre. " alt="" coords="481,132,640,159"/>
+<area shape="rect" id="node8" href="$display_8h.html#ac55c396e9d5a9409e1e6a7be81364f19" title="DisplayHelpLines affiche les indices autour de la grille (de 1 à 9) " alt="" coords="295,208,419,235"/>
+<area shape="rect" id="node9" href="$display_8h.html#a1e6c116d2cd9c1b8ad9280fa2e200ca5" title="DisplayScore affiche le score du joueur. " alt="" coords="307,259,407,285"/>
+<area shape="rect" id="node10" href="$init_8h.html#aa4699d640d199fc44a0c98dc6a5d45f5" title="Couleur détermine la couleur du fond de la case en fonction du chiffre. " alt="" coords="324,309,391,336"/>
+<area shape="rect" id="node11" href="$display_8h.html#a5d48918d8cc1a3379e776d48dcdf2e2b" title="DisplayRemainingHits affiche le nombre de coups restant. " alt="" coords="281,360,433,387"/>
+<area shape="rect" id="node12" href="$display_8h.html#a894fa592807b0958bf0e73d740452a62" title="DisplayLeaderBoard affiche le classement des meilleurs scores du 1er au 3e (affiche le nom du joueur ..." alt="" coords="288,411,427,437"/>
+<area shape="rect" id="node13" href="$display_8h.html#a39a7d88fa10d13a7ef05485a7b42dc67" title="DisplayStars affiche le pourcentage et les étoiles au dessus de la barre de progression (1er étoile =..." alt="" coords="309,461,406,488"/>
+<area shape="rect" id="node15" href="$display_8h.html#a91eab476771d28a0752e85888d477f9b" title="DisplayProgressBar affiche la barre de progression. " alt="" coords="288,512,427,539"/>
+<area shape="rect" id="node14" href="$ingame_8h.html#aff5ba4e81140f59295776e2f739d34ec" title="CalcPercentage. " alt="" coords="503,487,618,513"/>
+</map>

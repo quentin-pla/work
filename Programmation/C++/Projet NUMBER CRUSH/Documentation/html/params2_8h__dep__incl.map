@@ -1,0 +1,12 @@
+<map id="params2.h" name="params2.h">
+<area shape="rect" id="node2" href="$display_8h.html" title="Affichage du jeu à l&#39;écran. " alt="" coords="341,80,416,107"/>
+<area shape="rect" id="node7" href="$ingame_8h.html" title="Fonctionnalité du jeu en interaction avec le joueur. " alt="" coords="243,80,317,107"/>
+<area shape="rect" id="node8" href="$init_8h.html" title="Fonctions d&#39;initialisation. " alt="" coords="45,80,96,107"/>
+<area shape="rect" id="node10" href="$gamemods_8h.html" title="Les différents modes de jeu. " alt="" coords="121,80,218,107"/>
+<area shape="rect" id="node11" href="$params2_8cpp_source.html" title="params2.cpp" alt="" coords="441,80,538,107"/>
+<area shape="rect" id="node3" href="$main_8cpp_source.html" title="main.cpp" alt="" coords="456,155,531,181"/>
+<area shape="rect" id="node4" href="$display_8cpp_source.html" title="display.cpp" alt="" coords="229,155,317,181"/>
+<area shape="rect" id="node5" href="$gamemods_8cpp_source.html" title="gamemods.cpp" alt="" coords="94,155,205,181"/>
+<area shape="rect" id="node6" href="$ingame_8cpp_source.html" title="ingame.cpp" alt="" coords="342,155,431,181"/>
+<area shape="rect" id="node9" href="$init_8cpp_source.html" title="init.cpp" alt="" coords="5,155,69,181"/>
+</map>

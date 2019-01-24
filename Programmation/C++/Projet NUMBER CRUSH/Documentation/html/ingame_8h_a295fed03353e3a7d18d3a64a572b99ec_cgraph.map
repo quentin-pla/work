@@ -1,0 +1,4 @@
+<map id="SetDirection" name="SetDirection">
+<area shape="rect" id="node2" href="$canonic_8h.html#a224cd3d46cfe5381606415ce3585b91f" title="set_input_mode permet le passage au mode non canonique " alt="" coords="148,5,263,32"/>
+<area shape="rect" id="node3" href="$canonic_8h.html#af99d8c0775d8c342a142e2be8c2ea592" title="reset_input_mode permet le passage au mode canonique " alt="" coords="311,5,436,32"/>
+</map>

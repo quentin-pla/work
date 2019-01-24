@@ -1,0 +1,40 @@
+<map id="ShowRules" name="ShowRules">
+<area shape="rect" id="node2" href="$display_8h.html#a6c3c37c60f48772ed93ef51a142f0dc8" title="DisplayHeader affiche la partie haute de la fenêtre contenant &quot;NUMBER CRUSH&quot;. " alt="" coords="1063,1275,1171,1301"/>
+<area shape="rect" id="node3" href="$display_8h.html#a52d0ca86ff2a0ef127c0893799011754" title="DisplayWindowBorders affiche les bords de la fenêtre. " alt="" coords="1241,1021,1400,1048"/>
+<area shape="rect" id="node4" href="$canonic_8h.html#a224cd3d46cfe5381606415ce3585b91f" title="set_input_mode permet le passage au mode non canonique " alt="" coords="879,261,993,288"/>
+<area shape="rect" id="node6" href="$display_8h.html#aa9714056a06d1518bdc6306412206580" title="ClearScreen2 efface l&#39;écran. " alt="" coords="1067,1199,1168,1225"/>
+<area shape="rect" id="node7" href="$display_8h.html#ae89e5a96380a3c5e6d8c198020696084" title="ShowMenu affiche le menu de sélection du mode de jeu (choix entre CLASSIC, DIAGONAL, RULES) " alt="" coords="143,1325,229,1352"/>
+<area shape="rect" id="node5" href="$canonic_8h.html#af99d8c0775d8c342a142e2be8c2ea592" title="reset_input_mode permet le passage au mode canonique " alt="" coords="1055,261,1180,288"/>
+<area shape="rect" id="node8" href="$gamemods_8h.html#a4735fa2a3f1f10abe10b610510680b3c" title="GAME_ClassicMod permet de jouer en mode classique du jeu c&#39;est&#45;à&#45;dire qu&#39;il faut aligner au moins 3 c..." alt="" coords="281,1021,418,1048"/>
+<area shape="rect" id="node35" href="$gamemods_8h.html#afb4190e75f694b88fc919cb938bb9d6d" title="GAME_DiagonalMod permet de jouer en mode diagonal du jeu c&#39;est&#45;à&#45;dire qu&#39;il faut aligner au moins 3 c..." alt="" coords="277,641,421,668"/>
+<area shape="rect" id="node9" href="$init_8h.html#a43e6a452a6a528430946355ed0a7becb" title="InitGrid2 génère des nombres aléatoires dans la grille. " alt="" coords="543,971,614,997"/>
+<area shape="rect" id="node10" href="$init_8h.html#a8417e51a7c975bc6404280ef54bdb509" title="InitLeaderBoard en fonction du mode de jeu lit le fichier texte associé afin de remplir la matrice Le..." alt="" coords="522,1021,635,1048"/>
+<area shape="rect" id="node11" href="$init_8h.html#a075b1473c05c7c715501bff357e16b32" title="CheckGrid vérifie que la grille ne contienne pas 3 mêmes chiffres d&#39;affilé " alt="" coords="537,667,621,693"/>
+<area shape="rect" id="node12" href="$display_8h.html#a8084e88f83b951438d2d556697b62260" title="ShowLevels affiche les différents niveaux disponibles pour chaque mode de jeu. " alt="" coords="737,1173,830,1200"/>
+<area shape="rect" id="node13" href="$display_8h.html#a985915bc685c3aa57c3b75c4720b071f" title="DisplayWindow affiche la grille et tout le reste de la fenêtre en appelant chaque fonctions indépenda..." alt="" coords="879,667,993,693"/>
+<area shape="rect" id="node22" href="$ingame_8h.html#a357e1a065c7e8aebe8cc1df46ce31a28" title="GameStats. " alt="" coords="535,768,623,795"/>
+<area shape="rect" id="node23" href="$ingame_8h.html#a60837ded3ac39240259c93509f783ba8" title="MakeAMove. " alt="" coords="531,413,626,440"/>
+<area shape="rect" id="node26" href="$ingame_8h.html#ab13e1001573be4964b0b6b28f53b904b" title="AtLeastThreeInARow. " alt="" coords="505,1224,652,1251"/>
+<area shape="rect" id="node27" href="$ingame_8h.html#a108e24a88952cbfc5db26c2d1fef4633" title="AtLeastThreeInAColumn. " alt="" coords="496,1275,661,1301"/>
+<area shape="rect" id="node28" href="$ingame_8h.html#a5ca54be49179a28392f4ca76639ea63f" title="ReplaceKImpossibleNumbers. " alt="" coords="481,819,676,845"/>
+<area shape="rect" id="node29" href="$ingame_8h.html#aa3578b144300dcc54634d4edb8aacebc" title="UpdateScore. " alt="" coords="529,869,628,896"/>
+<area shape="rect" id="node30" href="$ingame_8h.html#ae08a929793a9f09a17e40cc361e4f1b6" title="RemovalInColumn. " alt="" coords="513,1173,644,1200"/>
+<area shape="rect" id="node31" href="$ingame_8h.html#ad02fc64961716c22249708018aa1da56" title="CheckNewRecord. " alt="" coords="514,920,643,947"/>
+<area shape="rect" id="node32" href="$init_8h.html#a69f66a6accb166c57bb7930bad085a20" title="ResetData reinitialise les données. " alt="" coords="536,717,621,744"/>
+<area shape="rect" id="node33" href="$display_8h.html#a2136d186fc0e7a3e00be122068e5810c" title="WinGame affiche la fenêtre &quot;YOU WIN&quot; lorsque le joueur a gagné " alt="" coords="896,1376,976,1403"/>
+<area shape="rect" id="node34" href="$display_8h.html#ab77f0cd8eb631a2675c55cbb24bc4fee" title="GameOver affiche la fenêtre &quot;GAME OVER&quot; lorsque le joueur a perdu. " alt="" coords="741,1123,826,1149"/>
+<area shape="rect" id="node14" href="$display_8h.html#ac55c396e9d5a9409e1e6a7be81364f19" title="DisplayHelpLines affiche les indices autour de la grille (de 1 à 9) " alt="" coords="1055,565,1179,592"/>
+<area shape="rect" id="node15" href="$display_8h.html#a1e6c116d2cd9c1b8ad9280fa2e200ca5" title="DisplayScore affiche le score du joueur. " alt="" coords="1067,616,1167,643"/>
+<area shape="rect" id="node16" href="$init_8h.html#aa4699d640d199fc44a0c98dc6a5d45f5" title="Couleur détermine la couleur du fond de la case en fonction du chiffre. " alt="" coords="1084,667,1151,693"/>
+<area shape="rect" id="node17" href="$display_8h.html#a5d48918d8cc1a3379e776d48dcdf2e2b" title="DisplayRemainingHits affiche le nombre de coups restant. " alt="" coords="1041,717,1193,744"/>
+<area shape="rect" id="node18" href="$display_8h.html#a894fa592807b0958bf0e73d740452a62" title="DisplayLeaderBoard affiche le classement des meilleurs scores du 1er au 3e (affiche le nom du joueur ..." alt="" coords="1048,768,1187,795"/>
+<area shape="rect" id="node19" href="$display_8h.html#a39a7d88fa10d13a7ef05485a7b42dc67" title="DisplayStars affiche le pourcentage et les étoiles au dessus de la barre de progression (1er étoile =..." alt="" coords="1069,515,1166,541"/>
+<area shape="rect" id="node21" href="$display_8h.html#a91eab476771d28a0752e85888d477f9b" title="DisplayProgressBar affiche la barre de progression. " alt="" coords="1048,464,1187,491"/>
+<area shape="rect" id="node20" href="$ingame_8h.html#aff5ba4e81140f59295776e2f739d34ec" title="CalcPercentage. " alt="" coords="1263,464,1378,491"/>
+<area shape="rect" id="node24" href="$ingame_8h.html#afbd1bef0eeee45e421b3578f66acba35" title="SetPos permet de sélectionner la position horizontale et verticale de la case que l&#39;on souhaite..." alt="" coords="751,312,816,339"/>
+<area shape="rect" id="node25" href="$ingame_8h.html#a295fed03353e3a7d18d3a64a572b99ec" title="SetDirection permet de choisir la directionn souhaitée (haut, bas , gauche, droite) ..." alt="" coords="736,261,831,288"/>
+<area shape="rect" id="node36" href="$ingame_8h.html#a4a09f89d72703bc9b9fc08c19781e80b" title="AtLeastThreeInADiagonalNordEst. " alt="" coords="469,195,688,221"/>
+<area shape="rect" id="node37" href="$ingame_8h.html#a3782b9c91c01c218dd60721fa091a274" title="RemovalInDiagonalNordEst. " alt="" coords="487,245,671,272"/>
+<area shape="rect" id="node38" href="$ingame_8h.html#afee55318480451016786e0433af2faa2" title="AtLeastThreeInADiagonalNordOuest. " alt="" coords="479,297,678,338"/>
+<area shape="rect" id="node39" href="$ingame_8h.html#aabc4dce46a5efcd51f169098ba015727" title="RemovalInDiagonalNordOuest. " alt="" coords="479,363,678,389"/>
+</map>
