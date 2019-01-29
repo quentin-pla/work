@@ -1,0 +1,14 @@
+{
+  "name": "quentin-pla/cook-burn",
+  "description": "description_text",
+  "type": "project",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "classmap": ["cookburn/","core/"]
+  }
+}

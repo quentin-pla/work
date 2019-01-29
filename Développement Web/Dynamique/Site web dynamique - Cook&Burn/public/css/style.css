@@ -1,0 +1,774 @@
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url("../font/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat Semi-Bold';
+    src: url("../font/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url("../font/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url("../font/Montserrat-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat Thin';
+    src: url("../font/Montserrat-Thin.ttf");
+}
+
+@media screen and (min-width: 1201px) {
+    .container {max-width: 70%;}
+    .carousel-inner{ height: 95vh; }
+    .carousel-caption {
+        transform: translateY(-43%);
+        bottom: 0;
+        top: 57%;
+    }
+    .carousel-inner img {
+        margin-top: -10px;
+    }
+    #titlepage { font-size: 60px;  }
+    #toprecette h2 {font-size: 80px;}
+    #toprecette h3 {font-size: 50px;}
+}
+
+@media screen and (max-width: 1200px) {
+    .container {max-width: 900px;}
+    .carousel-inner{ height: 100%; }
+    .carousel-caption {
+        transform: translateY(-44%);
+        bottom: 0;
+        top: 58%;
+    }
+    .carousel-inner img {
+        margin-top: -20px;
+    }
+    #titlepage { font-size: 50px;  }
+    #toprecette h2 {font-size: 50px;}
+    #toprecette h3 {font-size: 30px;}
+}
+
+@media screen and (max-width: 992px) {
+    #titlepage { font-size: 40px;  }
+}
+
+@media screen and (max-width: 768px) {
+    #titlepage { font-size: 35px;  }
+}
+
+@media screen and (max-width: 576px) {
+    #titlepage { font-size: 30px;  }
+}
+
+@media screen and (max-width: 500px) {
+    #titlepage { font-size: 30px;  }
+}
+
+@media screen and (max-width: 400px) {
+    #titlepage { font-size: 30px;  }
+}
+
+body {
+    padding-top: 3.5em;
+}
+
+h1 {
+    font-family:'Montserrat Bold';
+    font-size:6vw;
+    margin: 0px;
+}
+
+h2 {
+    font-family:'Montserrat Bold';
+    font-size:4vw;
+    margin: 0px;
+}
+
+h3 {
+    font-family:'Montserrat Bold';
+    font-size:1.5vw;
+    margin: 0px;
+}
+
+p {
+    font-family:'Montserrat Light';
+    font-size:0.8vw;
+    margin: 0px;
+}
+
+body {
+    background: black;
+}
+#inBody {
+    min-height: 92.1vh;
+    height: auto;
+}
+
+button:focus, a:focus, .btn:focus, .form-control:focus {
+    outline: none;
+    box-shadow:none;
+}
+
+.form-control:focus {
+    border-color: lightgrey;
+    border-right-width: 0px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card {
+    border-width: 0;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 500px;
+    object-fit:cover;
+}
+
+.btn-primary {
+    background: #303030;
+}
+
+.card-body h3 {
+    color: white;
+    font-size: 2.5rem;
+    max-width: 83%;
+}
+
+.card-body p {
+    color: white;
+    font-size: 1.6rem;
+}
+
+#recette .item {
+    position:absolute;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8),rgba(0,0,0,0));
+}
+
+#recette {
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.burns{
+    position: absolute;
+    right:20px;
+    top:25px;
+    background:#ff6a00;
+    text-align: center;
+    border-radius: 30px;
+    color:white;
+    padding: 0px 8px 0px 8px;
+    font-size:20px;
+}
+
+.profilbadge, .profilbadgeXS {
+    background:#ff6a00;
+    text-align: center;
+    border-radius: 30px;
+    color:white;
+    padding: 4px 10px 4px 8px;
+    font-size:15px;
+    font-family:'Montserrat Medium';
+    vertical-align: 1px;
+}
+
+.profilbadgeXS {
+    padding: 4px 8px 4px 7px;
+}
+
+.etapebadge {
+    background: #5e5e5e;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat Medium';
+    height: 22px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 1px;
+    min-width: 22px;
+}
+
+.burns i {
+    font-size: 15px;
+    color: white;
+}
+
+.input-group-append button {
+    border-left-width: 0px;
+    border-color: white;
+    border-radius: 20px;
+    font-size: 1px;
+    color: #6c7594;
+}
+
+.input-group-append:hover {
+    background-color: #343a40;
+}
+
+.input-group input {
+    border-radius: 20px;
+    border-color: white;
+    fill: #303030;
+}
+
+.input-group input:focus {
+    background-color: #232323;
+    border-color: white;
+}
+
+.carousel-caption {
+    height: auto;
+}
+
+.carousel-caption h1 {
+    font-family: 'Montserrat Semi-Bold';
+}
+
+.carousel-caption h3 {
+    font-family: 'Montserrat Light';
+    font-size: 2.5vw;
+    padding-left: 0.2vw;
+}
+
+.carousel-indicators {
+    bottom: 0;
+}
+
+.bg-grey {
+    background-color: #232323;
+}
+
+.bg-lightgrey {
+    background-color: #303030;
+}
+
+.text-grey {
+    color: lightgrey;
+}
+
+.navbar-toggler {
+    width: 40px;
+    height: 30px;
+    border-width: 0px;
+
+}
+
+#btndeconnexion {
+    background: #343a40;
+    margin: 7px 0 7px 0;
+    border-color: grey;
+    border-width: 1px;
+    font-family: "Montserrat Light";
+    color: lightgrey;
+}
+
+#btndeconnexion:hover {
+    color: white;
+    background: #8e0707; !important;
+    border-color: #8e0707;
+}
+
+#btnconnexion {
+    margin: 7px 15% 7px 15%;
+    border-color: grey;
+    border-width: 1px;
+    font-family: "Montserrat Light";
+    color: grey;
+}
+
+#decoContain {
+    vertical-align: center;
+}
+
+#decoContain h3 {
+    font-size: 100%;
+}
+
+#btnconnexion:hover {
+    color: white;
+    background: #208e07;
+    border-color: #208e07;
+}
+#navbarHeader {
+    position:fixed;
+    z-index: 30;
+    width: 100%;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2)
+}
+.navbar {
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3)
+}
+.modal{
+    background: rgba(0, 0, 0, .3)
+}
+
+.modal-header,.modal-body,.modal-footer{
+    background-color: #232323;
+    border-width: 0px;
+}
+
+.modal .modal-content{
+    border-radius: 20px;
+    border: 3px solid #232323;
+    box-shadow: 0 0 7px rgba(0,0,0,0.6);
+}
+
+.modal-header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.modal-header button{
+    background: #343a40;
+    color: lightgrey;
+    border-width: 0px;
+    margin-top: -10px;
+    margin-right: -3px;
+}
+
+.modal-body input {
+    background: #232323;
+    border-color: grey;
+    border-width: 1px;
+    font-family: "Montserrat Light";
+    color: lightgrey;
+}
+
+.modal-body button, .modal-footer button {
+    background: #208e07;
+    border-color: #208e07;
+    font-family: "Montserrat Light";
+    color: white;
+}
+
+.modal-footer button {
+    background: grey;
+    border-color: grey;
+}
+
+.modal-footer {
+    border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+
+.modal-title {
+    font-family:'Montserrat Medium';
+    color: white;
+    font-size: 2rem;
+}
+
+#titlepage {
+    font-family: 'Montserrat Medium';
+}
+
+/* Profil */
+#infosUser h3{
+    font-family: 'Montserrat Semi-Bold';
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+#infosUser h4{
+    font-family: 'Montserrat Light';
+    font-size: 25px;
+}
+
+#infosRecette h3 {
+    font-family: 'Montserrat Semi-Bold';
+    font-size: 50px;
+}
+
+#infosRecette h4 {
+    font-family: 'Montserrat Light';
+    font-size: 25px;
+}
+
+#infosRecette h5 {
+    font-family: 'Montserrat Thin';
+    color: #dddddd;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+#infosRecette p {
+    font-family: 'Montserrat Light';
+    font-size: 15px;
+}
+
+#recetteIngStep h3 {
+    font-family: 'Montserrat Medium';
+    font-size: 30px;
+}
+
+#recetteIngStep h4 {
+    font-family: 'Montserrat Light';
+    font-size: 20px;
+}
+
+
+#profilButtons h4 {
+    font-family: 'Montserrat Light';
+    font-size: 20px;
+    margin: 0;
+}
+
+#profilButtons .btnSwitch {
+    cursor: pointer;
+}
+
+#avatar {
+    height:100%;
+    object-fit: cover;
+}
+
+.listProfile {
+    display:none;
+    flex-flow:row wrap;
+    padding-right: 3.33%;
+    padding-bottom: 3.33%;
+}
+.listProfileActive {
+    display:flex;
+}
+.recetteProfil {
+    margin-left:3.33%;
+    margin-top:3.33%;
+    padding-left: 0;
+    padding-right: 0;
+    transition: 0.1s;
+    background: #8e0707;
+}
+
+.recetteProfil img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.textImage {
+    width:100%;
+    position: absolute;
+    top: 0;
+    padding:1.2%;
+    height:100%;
+    padding-bottom: 60%;
+}
+.textImage *{
+    color: rgba(255,255,255,0);
+    transition: 80ms;
+    font-size: 70%;
+}
+.recetteProfil:hover .textImage {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7),rgba(0,0,0,0));
+}
+.recetteProfil:hover .textImage * {
+    color: rgba(255,255,255,1);
+    text-shadow: 0 0 3px black;
+}
+.recetteProfil:hover {
+    box-shadow: 0 0 2px #232323;
+}
+
+.btnSwitch {
+    transition: 0.1s;
+    background-color: #232323;
+}
+
+.btnActifProfil,
+.btnSwitch:hover,
+.btnSwitch.btnActifProfil {
+    color:white;
+    background-color: #ff5e14;
+    z-index: 2;
+}
+
+/* pseudo header */
+
+#pseudoContainer a {
+    text-decoration: none;
+    color: #ff5e14;
+    transition: 0.1s;
+}
+#pseudoContainer a:hover {
+    color: #ff8b00;
+    text-shadow: 0 0 1px #ff5e14;
+}
+
+#paveBox *{
+    font-size: 100%;
+}
+
+#pagerecette h3 {
+    font-family: "Montserrat Medium";
+    font-size: 40px;
+}
+
+#pagerecette h4 {
+    font-family: "Montserrat Light";
+    font-size: 25px;
+    margin: 0px;
+}
+
+.border-2 {
+    border-width: 10px;
+}
+
+#pagerecette img {
+    width: 50px;
+    height: 50px;
+    object-fit:cover;
+    margin-right: 10px;
+}
+.btnFav {
+    background: rgba(0,0,0,0);
+    border: none;
+    margin:0.5%;
+    transition: 0.1s;
+}
+.btnFav:hover {
+    background: rgba(0,0,0,0);
+}
+.btnFav:active {
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+    background: radial-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0));
+}
+.btnFav i {
+    font-size: 6vh;
+    color: white;
+    transition:0.2s;
+}
+.btnFav:hover i {
+    color: #ffc107;
+    text-shadow: 0 0 4px rgba(0,0,0,0.7);
+}
+
+#btnFavPlein i{
+    color: #ffc107;
+    text-shadow: 0 0 4px rgba(0,0,0,0.7);
+}
+.btnLike:hover i {
+    color: #ff6a00;
+}
+#btnLikePlein i {
+    text-shadow: 0 0 4px rgba(0,0,0,0.7);
+    color: #ff6a00;
+}
+/* Admin */
+.nav-item {
+    font-family: "Montserrat Light";
+    font-size: 1.5rem;
+    margin: 0 !important;
+}
+
+.nav-link {
+    color: white;
+    transition: all .1s ease-in;
+}
+
+.nav-tabs, .nav-link {
+    border-radius: 0px !important;
+    border-width: 0px !important;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: #232323;
+}
+
+.tab-content {
+    font-family: "Montserrat Light";
+    color: black;
+    background-color: white;
+}
+
+#bouton_recettes {
+    margin-left: 900px;
+    position: absolute;
+    background-color: lightgray;
+    color: white;
+}
+
+#bouton_recettes:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.dropzone {
+    border: 4px dashed #ccc;
+    height: 250px;
+    min-height: 200px;
+    width: 90%;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.dropzone p {
+    /*height: 100%;*/
+    /*line-height: 200px;*/
+    margin: 0%;
+    text-align: center;
+    width: 100%
+}
+
+.info i {
+    font-size: 700%;
+    margin-top: 65px;
+}
+
+.input {
+    height: 100%;
+    left: 0;
+    outline: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+/* button pagination */
+
+#listPage div{
+    background: #ff6a00;
+    border-radius: 15px;
+}
+#listPage button {
+    width:30px;
+    background: none;
+    color: white;
+    border: none;
+    transition: 50ms;
+    padding: 0;
+    text-align: center;
+}
+#listPage button:hover {
+    color: black;
+    cursor:pointer;
+}
+
+/* Changement de mot de passe pour le cas du mot de passe oublié*/
+
+#mdp {
+    border-radius: 37px 37px 37px 37px;
+    -moz-border-radius: 37px 37px 37px 37px;
+    -webkit-border-radius: 37px 37px 37px 37px;
+    border: 9px inset #000000;
+    margin-top: 200px;
+}
+
+#mdp div input {
+    margin-top: 10px;
+    background: #232323;
+    border-color: darkgray;
+    border-width: 1px;
+    font-family: "Montserrat Light";
+    color: darkgray;
+}
+
+#mdp div input:hover {
+    background-color: whitesmoke;
+    border-color: white;
+    color: black;
+}
+
+#mdp h2 {
+    font-family: "Montserrat Light";
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 50px 0px 50px 80px;
+}
+
+#btnEnvoie {
+    background: limegreen;
+    border-color: forestgreen;
+    border-width: 1px;
+    font-family: "Montserrat Light";
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    margin: 50px 0px 50px 500px;
+}
+
+#btnEnvoie:hover {
+    color: white;
+    background: gray;
+    border-color: gray;
+}
+
+#fond {
+    background-color: #303030;
+}
+#pageAdmin img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+#pageAdmin table {
+    width: 100%;
+}
+
+#pageAdmin td, th {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#pageAdmin th {
+    font-family: "Montserrat Medium";
+}
+
+#pageAdmin td {
+    font-family: "Montserrat Light";
+}
+
+.dropdown i, .dropdown a {
+    cursor: pointer;
+}
+
+.dropdown h3 {
+    font-family: "Montserrat Medium";
+    font-size: 20px;
+}
+
+.dropdown a {
+    font-family: "Montserrat Medium";
+    font-size: 20px;
+}
+
+.dropdown a:hover {
+    background: #ff5e14;
+}
+
+.pointer {
+    cursor: pointer;
+}
+.formExterieur div{
+    margin-bottom: 2%;
+}
+.formExterieur button {
+    border-radius:18px;
+}
+
+#toprecette h3 {
+    font-family: 'Montserrat Light';
+}
