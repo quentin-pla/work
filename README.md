@@ -48,4 +48,4 @@
 
 ## Design
 
-* [Réalisation de logos](https://github.com/quentin-pla/work/tree/master/Design)
+* [Réalisation de logos et affiches](https://github.com/quentin-pla/work/tree/master/Design)
