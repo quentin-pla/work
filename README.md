@@ -1,9 +1,33 @@
+# Expériences professionnelles
+
+## CDD - La Provence (Marseille, 07/2019) : Suite du stage.
+> Laravel PHP JS JQuery HTML CSS Bootstrap Trello SCRUM MySQL
+
+## Stage - La Provence (Marseille, 04/2019 → 06/2019) : Réalisation de la partie d'une application web de portage des journaux.
+
+* [Fiche d'évaluation](https://raw.githubusercontent.com/quentin-pla/work/master/Stages/La%20Provence%20-%202019/Fiche%20E%CC%81valuation.pdf)
+
+* [Rapport de stage](https://raw.githubusercontent.com/quentin-pla/work/master/Stages/La%20Provence%20-%202019/Rapport%20de%20stage.pdf)
+
+* [Annexe](https://raw.githubusercontent.com/quentin-pla/work/master/Stages/La%20Provence%20-%202019/Annexe.pdf)
+
+> Laravel PHP JS JQuery HTML CSS Bootstrap Trello SCRUM MySQL
+
 # Projets et réalisations
 
 ## Développement Web
 
+* [Site web personnel | Octobre 2020](https://www.quentin-pla.fr)
+  > ReactJS HTML CSS Bootstrap JS JQuery
+
+* [Projet CC7 | Juillet/Septembre 2020](https://www.cc7.company)
+  > ReactJS MongoDB HTML CSS Bootstrap NodeJS JS JQuery
+
+* [Projet Buvette du Lac | Juin/Juillet 2020](https://www.buvettedulac.fr/)
+  > ReactJS MongoDB HTML CSS Bootstrap NodeJS JS JQuery
+
 * [Projet Gestion Bibi Hôtels (Site web) | Avril 2020](https://github.com/quentin-pla/Gestion-Bibi-Hotels)
-  > REACT HTML CSS Bootstrap
+  > REACT HTML CSS Bootstrap Trello
 
 * [Projet Casino | Mars 2020](https://github.com/quentin-pla/react-gambling-project)
   > REACT HTML CSS Bootstrap
@@ -13,11 +37,17 @@
 
 ## Programmation
 
+* [Projet IHM Photos | Janvier 2021](https://github.com/Smeunzo/Projet-1-IHM)
+  > C++ Qt CSS
+
+* [Projet Moteur graphique & PACMAN | Décembre 2020](https://github.com/quentin-pla/pacman)
+  > JAVA Swing JUnit Maven
+
 * [Projet Gestion Bibi Hôtels (Application Java) | Avril 2020](https://github.com/quentin-pla/Gestion-Bibi-Hotels)
   > JAVA JAVAFX
   
 * [Projet Chat Fédéré | Mars 2020](https://github.com/quentin-pla/Projet_Chat_Federe)
-  > JAVA JAVAFX
+  > JAVA JAVAFX 
   
 * [Projet GridGames | Décembre 2019](https://github.com/L3InfoAMU/gridgame-obscurax_donjon)
   > JAVA JAVAFX
