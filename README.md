@@ -11,6 +11,8 @@
 
 * [Annexe](https://raw.githubusercontent.com/quentin-pla/work/master/Stages/La%20Provence%20-%202019/Annexe.pdf)
 
+* [(Diaporama) Soutenance orale](https://github.com/quentin-pla/work/blob/master/Stages/La%20Provence%20-%202019/soutenance_orale.pptx?raw=true)
+
 > Laravel PHP JS JQuery HTML CSS Bootstrap Trello SCRUM MySQL
 
 # Projets et réalisations
@@ -71,6 +73,10 @@
 * [Dossier Communication | Décembre 2018](https://github.com/quentin-pla/work/tree/master/Communication/Dossier%20Communication)
 
 * [Charte Graphique | Décembre 2017](https://github.com/quentin-pla/work/tree/master/Communication/Projet%20Charte%20Graphique)
+
+## ERDI
+
+* [Présentation de la cyber-attaque de comptes vérifiés Twitter (07/2020) | Décembre 2020](https://github.com/quentin-pla/work/tree/master/ERDI)
 
 ## Anglais
 
